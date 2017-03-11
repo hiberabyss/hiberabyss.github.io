@@ -69,11 +69,15 @@ theme: maupassant
 
 plugin:
   - hexo-generator-feed
+  - hexo-generator-sitemap
 
 feed:
   type: atom
   path: atom.xml
   limit: 0
+
+sitemap:
+    path: sitemap.xml
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
