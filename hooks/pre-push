@@ -22,7 +22,6 @@
 remote="$1"
 url="$2"
 
-pwd
 HEXO_BLOG="../blog"
 $HEXO_BLOG -p
 
