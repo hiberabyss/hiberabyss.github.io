@@ -5,7 +5,8 @@
 # Email: hbliu@freewheel.com
 # CreatTime: 2017-03-12 15:11:25 CST
 
-THEME_DIR="themes/maupassant-hexo"
+CURDIR="$(dirname "$0")"
+THEME_DIR="$CURDIR/themes/maupassant-hexo"
 
 theme_init() {
 	cd $THEME_DIR
@@ -32,8 +33,13 @@ push() {
 	git push origin
 }
 
-all_push() {
+source_push() {
+	cd "$CURDIR"
 	push
+}
+
+all_push() {
+	source_push
 	theme_push
 }
 
