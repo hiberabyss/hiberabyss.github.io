@@ -56,7 +56,7 @@ main() {
 	while getopts 'ph' OPT; do
 		case $OPT in
 			h) usage ;;
-			p) push ;;
+			p) all_push ;;
 			?) ;;
 		esac
 	done
