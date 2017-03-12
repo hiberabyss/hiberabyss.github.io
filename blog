@@ -26,6 +26,8 @@ init() {
 	npm install -g hexo-cli
 	npm install
 	theme_init
+	hexo generate -d
+	ln -sf ../../../hooks/pre-push .deploy_git/.git/hooks
 }
 
 push() {
