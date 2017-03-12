@@ -1,7 +1,7 @@
 ---
-title: "exo 源文件备份"
+title: "Hexo 源文件备份"
 date: 2017-03-13 01:00:26
-tags:
+tags: Hexo
 ---
 
 在执行完 `hexo generate -d` 命令后会把生成的 html 文件上传到 github 上，我们还需要一种方法来备份源 markdown 文件及对应的 hexo 配置文件，
