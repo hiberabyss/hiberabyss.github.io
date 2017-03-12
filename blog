@@ -50,9 +50,9 @@ all_push() {
 usage() {
 cat << EOF
 Usage:
-blog -h # blog command help
-blog    # init hexo blog
-blog -p # save blog source
+blog -h		# blog command help
+blog   		# init hexo blog
+blog -p		# save blog source
 EOF
 }
 
