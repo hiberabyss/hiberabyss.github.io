@@ -5,11 +5,19 @@
 # Email: hbliu@freewheel.com
 # CreatTime: 2017-03-12 15:11:25 CST
 
+THEME_DIR="themes/maupassant-hexo"
+
 theme_init() {
-	cd themes/maupassant-hexo
+	cd $THEME_DIR
 	git remote add upstream https://github.com/tufu9441/maupassant-hexo.git
 	git fetch --all
 	git branch --set-upstream-to=upstream/master
+	git checkout master
+}
+
+theme_push() {
+	cd $THEME_DIR
+	push
 }
 
 init() {
@@ -22,6 +30,11 @@ push() {
 	git add .
 	git commit -m 'Regular save'
 	git push origin
+}
+
+all_push() {
+	push
+	theme_push
 }
 
 usage() {
