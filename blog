@@ -1,0 +1,53 @@
+#!/bin/bash
+#
+# Description: init the hexo blog
+# Author: Hongbo Liu
+# Email: hbliu@freewheel.com
+# CreatTime: 2017-03-12 15:11:25 CST
+
+theme_init() {
+	cd themes/maupassant-hexo
+	git remote add upstream https://github.com/tufu9441/maupassant-hexo.git
+	git fetch --all
+	git branch --set-upstream-to=upstream/master
+}
+
+init() {
+	npm install -g hexo-cli
+	npm install
+	theme_init
+}
+
+push() {
+	git add .
+	git commit -m 'Regular save'
+	git push origin
+}
+
+usage() {
+cat << EOF
+Usage:
+blog -h # blog command help
+blog    # init hexo blog
+blog -p # save blog source
+EOF
+}
+
+main() {
+	if [[ $# -eq 0 ]]; then
+		init
+		exit 0
+	fi
+
+	local OPT OPTARG OPTIND
+	while getopts 'ph' OPT; do
+		case $OPT in
+			h) usage ;;
+			p) push ;;
+			?) ;;
+		esac
+	done
+	shift $(($OPTIND - 1))
+}
+
+main $*
