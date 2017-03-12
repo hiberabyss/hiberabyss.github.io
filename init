@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# Description: init the hexo blog
+# Author: Hongbo Liu
+# Email: hbliu@freewheel.com
+# CreatTime: 2017-03-12 15:11:25 CST
+
+npm install -g hexo-cli
+npm install
