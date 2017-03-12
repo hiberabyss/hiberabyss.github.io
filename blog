@@ -64,7 +64,6 @@ main() {
 		case $OPT in
 			h) usage ;;
 			p) all_push ;;
-			?) ;;
 		esac
 	done
 	shift $(($OPTIND - 1))
