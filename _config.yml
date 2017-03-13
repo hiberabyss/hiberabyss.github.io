@@ -82,9 +82,12 @@ sitemap:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:hiberabyss/hiberabyss.github.io.git
-  branch: master
+  - type: git
+    repo: git@github.com:hiberabyss/hiberabyss.github.io.git
+    branch: master
+  - type: git
+    repo: git@git.coding.net:hbliu/hbliu.coding.me.git
+    branch: master
 
 marked:
   gfm: true
