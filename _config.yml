@@ -88,6 +88,9 @@ deploy:
   - type: git
     repo: git@git.coding.net:hbliu/hbliu.coding.me.git
     branch: master
+  - type: git
+    repo: git@git.oschina.net:hbliu/hbliu.git
+    branch: master
 
 marked:
   gfm: true
