@@ -62,7 +62,7 @@ workspace
 通过硬连接的方式把 `Jenkinsfile` 脚本连接到 `workspace` 目录下：
 
 ```shell
-ln /path/to/project/Jenkinsfile /path/to/project/jenkins_home/
+ln /path/to/project/Jenkinsfile /path/to/project/jenkins_home/Jenkinsfile
 ```
 
 这样当你修改 `Jenkinsfile` 文件时，它会自动被 CD-Test 加载。
