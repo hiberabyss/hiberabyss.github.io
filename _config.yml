@@ -106,3 +106,18 @@ marked:
   breaks: false
   smartLists: true
   smartypants: true
+
+html_minifier:
+  enable: true
+  exclude:
+css_minifier:
+  enable: true
+  exclude: 
+    - '*.min.css'
+js_minifier:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude: 
+    - '*.min.js'
