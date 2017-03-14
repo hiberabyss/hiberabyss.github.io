@@ -1,7 +1,9 @@
 ---
 title: "基于 Docker 搭建 Jenkins Pipeline 测试环境"
 date: 2017-03-12 01:29:06
-tags: Jenkins CICD
+tags: 
+- Jenkins
+- CICD
 ---
 
 最近在做 CD 相关的一些工作，会用到 Jenkins Pipeline，为了方便测试，利用 Docker 搭建了一个本地的 Jenkins 服务。
