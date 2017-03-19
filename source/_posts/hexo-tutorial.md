@@ -101,5 +101,5 @@ sitemap: false
 
 <img src="http://on2hdrotz.bkt.clouddn.com/blog/1489936644191.png" width="379"/>
 
-当昨晚所有这些操作之后可以通过 `site:your-blog-site` 这个搜索来验证你的博客有没有被百度和 Google 收录。
+当做完所有这些操作之后可以通过 `site:your-blog-site` 这个搜索来验证你的博客有没有被百度和 Google 收录。
 一般需要几天的时间才能保证你的博客被搜索引擎检索到。
