@@ -1,13 +1,12 @@
 ---
 title: "Hexo 入门教程"
 date: 2017-03-13 21:41:42
+toc: true
 tags: Hexo
 ---
 
 晚上把搭好的博客发给了我的 Best Gay Friend 看，本来只是想赚一下浏览量，但基友说也想搭一个类似的博客系统。
 寻思着可以写一篇利用 Github Pages 搭建 Hexo 博客系统的入门教程，既可以增加一篇“凑字数”的博客，又可以急基友之所急。
-
-<!-- toc -->
 
 <!--more-->
 
@@ -69,3 +68,38 @@ deploy:
 ```
 
 最后执行 `hexo generate -d`，大功告成！打开 http://your-github-id.github.io 就可以访问你的博客网站了！
+
+## 搜索引擎检索
+
+为了让博客的内容能被百度和 Google 检索，首先需要生成对应的 sitemap：
+
+```shell
+npm install hexo-generator-sitemap --save
+npm install hexo-generator-baidu-sitemap --save
+```
+
+分别在 [百度站长工具](http://zhanzhang.baidu.com/site/index) 和 [Google 站长工具](https://www.google.com/webmasters/tools/home?hl=zh-CN)
+里对你的博客站点进行验证。
+
+选择`文件验证`的方式进行验证，把下载的文件放在 `source` 目录下，并对文件内容进行编辑，在文件首部加入如下内容：
+
+```yaml
+---
+layout: false
+sitemap: false
+---
+```
+
+这样就可以防止 Hexo 在生成博客网站时在验证文件里添加额外的内容，导致验证失败。
+
+当博客站点验证成功后便可以选择用 sitemap 的方式自动提交链接。对于百度，在站长平台工具里选择 “网页抓取-->链接提交-->自动提交-->sitemap”，
+如下图所示：
+
+<img src="http://on2hdrotz.bkt.clouddn.com/blog/1489936271715.png" width="560"/>
+
+对于 Google 择选择 “抓取-->站点地图-->添加站点地图”，如下图所示：
+
+<img src="http://on2hdrotz.bkt.clouddn.com/blog/1489936644191.png" width="379"/>
+
+当昨晚所有这些操作之后可以通过 `site:your-blog-site` 这个搜索来验证你的博客有没有被百度和 Google 收录。
+一般需要几天的时间才能保证你的博客被搜索引擎检索到。
