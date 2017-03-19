@@ -106,7 +106,6 @@ sitemap: false
 
 ## 使用七牛作为图床
 
-注册 [七牛账户](https://portal.qiniu.com/signup?code=3liikw6nls3ma) 并创建一个新的 bucket，
-利用插件 [markdown-img-upload](https://github.com/tiann/markdown-img-upload) 可以很方便地上传图片到七牛并插入
-图片引用到 Markdown 文件。
+注册 [七牛账户](https://portal.qiniu.com/signup?code=3liikw6nls3ma) 并创建一个新的 bucket（选择华东区，否则下面提到的插件无法正常使用），
+利用插件 [markdown-img-upload](https://github.com/tiann/markdown-img-upload) 可以很方便地上传图片到七牛并插入图片引用到 Markdown 文件。
 
