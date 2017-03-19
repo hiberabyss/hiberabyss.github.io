@@ -103,3 +103,10 @@ sitemap: false
 
 当做完所有这些操作之后可以通过 `site:your-blog-site` 这个搜索来验证你的博客有没有被百度和 Google 收录。
 一般需要几天的时间才能保证你的博客被搜索引擎检索到。
+
+## 使用七牛作为图床
+
+注册 [七牛账户](https://portal.qiniu.com/signup?code=3liikw6nls3ma) 并创建一个新的 bucket，
+利用插件 [markdown-img-upload](https://github.com/tiann/markdown-img-upload) 可以很方便地上传图片到七牛并插入
+图片引用到 Markdown 文件。
+
