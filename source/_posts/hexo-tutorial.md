@@ -92,6 +92,16 @@ sitemap: false
 
 这样就可以防止 Hexo 在生成博客网站时在验证文件里添加额外的内容，导致验证失败。
 
+也可以在博客的配置文件里加入如下的配置来防止这些文件被渲染：
+
+```yaml
+skip_render:
+  - baidu_verify*.html
+  - google*.html
+```
+
+具体的匹配规则可以参考这个 [comment](https://github.com/hexojs/hexo/issues/1146#issuecomment-88380140 ) 
+
 当博客站点验证成功后便可以选择用 sitemap 的方式自动提交链接。对于百度，在站长平台工具里选择 “网页抓取-->链接提交-->自动提交-->sitemap”，
 如下图所示：
 
