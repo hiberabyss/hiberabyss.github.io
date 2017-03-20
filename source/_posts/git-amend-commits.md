@@ -8,6 +8,8 @@ tags:
 或者是有些文件忘记 commit 了，又或者是有些垃圾文件被不小心 commit 了；这时不要伤心、不要难过，
 因为 git 给你提供了后悔药。
 
+<!--more-->
+
 ## 修改最近的一个 commit
 
 如果想要修改最近的一个 commit 的 message，直接执行 `git commit --amend`，然后在编辑器里修改 message 信息，
