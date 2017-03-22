@@ -34,10 +34,10 @@ git rebase -i commit-before-you-want-to-change
 
 修改每个 commit 前的命令即可实现对应的操作，常用的命令有：
 
-- reword：修改当前 commit 的 message
-- squash：把当前 commit 合并到前一个 commit，包括 commit message
-- fixup：类似 squash，但会丢弃当前 commit 的 message
-- edit：修改当前 commit
+- reword: 修改当前 commit 的 message
+- squash: 把当前 commit 合并到前一个 commit，包括 commit message
+- fixup:  类似 squash，但会丢弃当前 commit 的 message
+- edit:   修改当前 commit
 
 在进行 rebase 时比较麻烦的一点是获取要修改的最后一个 commit 的 hash 值。在多人协作的项目里，我们每次要进行 rebase 的 commit 应该都是由自己提交的，
 基于这个假设，可以通过脚本获取最后一个不是当前作者的 commit 作为 git rebase 的参数，对应的 shell 脚本代码如下：
@@ -69,5 +69,3 @@ function main() {
 
 main $*
 ```
-
-
