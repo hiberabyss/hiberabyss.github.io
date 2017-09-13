@@ -2,7 +2,7 @@
 title: "Git Tips：修改 commits"
 toc: true
 date: 2017-03-21 00:03:41
-tags:
+tags: Git
 ---
 总是会存在这样的场景：在开开心心地用 git commit 提交了代码之后，才发现 commit message 里有 typo，
 或者是有些文件忘记 commit 了，又或者是有些垃圾文件被不小心 commit 了；这时不要伤心、不要难过，
