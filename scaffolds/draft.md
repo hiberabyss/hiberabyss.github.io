@@ -1,4 +1,1 @@
----
-title: {{ title }}
-tags:
----
+./post.md
