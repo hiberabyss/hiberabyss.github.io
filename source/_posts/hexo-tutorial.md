@@ -48,6 +48,11 @@ theme: maupassant-hexo
 
 主题 `maupassant` 的具体安装方法可以参考它的 [ 官方文档](https://github.com/tufu9441/maupassant-hexo )。
 
+### 自定义 maupassant 主题
+
+- 启用博客阅读数统计：`busuanzi: true`
+- 启用对应的 Comment：gitment、valine
+
 ## 部署 Hexo 博客到 Github Pages
 
 要使用 Github Pages 首先需要你建一个名称为 `your-github-id.github.io` 的 repository，同时需要在 repository 的设置里开启 Github Pages 功能。
