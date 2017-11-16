@@ -91,8 +91,8 @@ class Source(Base):
 
 ## For FreeWheel Guys
 
-我已经把 logquery 的关键词补全打包成一个 vim 插件包，放在了 gitlab 上，可以直接通过下面的命令
-安装：
+我已经把 logquery 的关键词补全打包成一个 vim 插件包，放在了 gitlab 上，
+在 `.vimrc` 里加入下面的内容，然后执行 `:PlugInstall!` 即可安装：
 
 ```vim
 Plug 'https://github.com/Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
