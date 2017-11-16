@@ -2,7 +2,9 @@
 title: 【Vim】macOS 系统下 Vim 编辑中文 tips
 date: 2017-11-14 00:01:05
 toc: true
-tags: VIM macOS
+tags:
+	- VIM
+	- macOS
 ---
 
 因为 VIM 里存在多个 mode ，使得编辑中文变得很痛苦。在 Insert mode 下需要使用中文输入法，
