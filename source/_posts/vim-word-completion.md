@@ -27,7 +27,7 @@ transaction__request__context__custom_asset_id	varchar
 ```
 
 上面的第二个字段是为了能在补全窗口里显示这个字段的类型。通过添加 deoplete 的 source 来解析这个
-`keywork.txt` 文件就可以在 vim 里实现自动补全：
+`keyword.txt` 文件就可以在 vim 里实现自动补全：
 
 <img src="http://on2hdrotz.bkt.clouddn.com/blog/1510809654151.png" width="478"/>
 
@@ -101,3 +101,4 @@ Plug 'https://github.com/Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'git@git.dev.fwmrm.net:vim/deoplete-fwlqs.git'
 ```
 
+该插件只有在编辑 sql 类型的文件时才会生效。
