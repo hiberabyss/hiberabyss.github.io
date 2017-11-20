@@ -51,6 +51,7 @@ cp libmemcached-1.0.18/libmemcachedprotocol-0.0/ 3rd/libmemcached
 cp libmemcached-1.0.18/libhashkit 3rd/libmemcached
 ```
 
+为了防止文件名同名，我们需要把 libhashkit 目录下的文件重命名，加上目录名：`mmv '*.cc' 'libhashkit_*.cc'`。
 在 3rd/libmemcached 中加入 Makefile.am 文件：
 
 ```automake
