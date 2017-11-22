@@ -3,8 +3,8 @@ title: 【VIM】neovim 下的 neoterm 插件的一些改进
 date: 2017-11-15 23:52:32
 toc: true
 tags:
-	- VIM
-	- neovim
+    - VIM
+    - neovim
 ---
 
 Neovim 原生支持 terminal 功能，在编辑文件的同时可以新开一个 terminal 窗口，
@@ -38,17 +38,17 @@ terminal 窗口：
 
 ```vim
 function! PreviousTerminal()
-	:bprevious
-	while &buftype != "terminal"
-		:bprevious
-	endw
+    :bprevious
+    while &buftype != "terminal"
+        :bprevious
+    endw
 endfunction
 
 function! NextTerminal()
-	:bnext
-	while &buftype != "terminal"
-		:bnext
-	endw
+    :bnext
+    while &buftype != "terminal"
+        :bnext
+    endw
 endfunction
 
 tnoremap <silent> <A-[> <c-\><c-n>:call PreviousTerminal()<cr>
