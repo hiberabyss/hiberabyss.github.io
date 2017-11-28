@@ -37,7 +37,7 @@ VPN>
 VPN> connect your.vpn.url
 ```
 
-按照提示输入你的用户名和密码即可连接 VPN
+按照提示输入你的用户名和密码即可连接 VPN 。
 
 ## 利用脚本连接 VPN
 
@@ -136,7 +136,8 @@ main "$*"
 
 ## 通过 Alfred Workflow 插件来连接
 
-安装这个 Alfred Workflow 即可直接通过 Alfred 来直接打开或者断开 VPN 连接：
+安装这个 [Alfred Workflow](https://github.com/hiberabyss/BlogDATA/raw/master/alfred/NoPasswdAnyconnect.alfredworkflow)
+即可直接通过 Alfred 来直接打开或者断开 VPN 连接：
 
 <img src="http://on2hdrotz.bkt.clouddn.com/blog/1511848203769.png" width="555"/>
 

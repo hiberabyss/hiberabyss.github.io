@@ -11,6 +11,8 @@ Neovim 原生支持 terminal 功能，在编辑文件的同时可以新开一个
 在其中执行命令。例如我可以在写博客的同时开启一个 terminal 窗口，在其中执行 `hexo s`，
 这样就可以实时预览博客：
 
+NOTE: 最新版本的 Neoterm 插件已经原生支持 `Tnext` 和 `Tprevious` 命令。
+
 <!--more-->
 
 <img src="http://on2hdrotz.bkt.clouddn.com/blog/1510762631758.png" width="570"/>
