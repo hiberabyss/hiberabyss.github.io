@@ -40,11 +40,17 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
+
+# prism_plugin:
+  # mode: 'realtime'    # realtime/preprocess
+  # theme: 'default'
+  # line_number: true    # default false
 
 mathjax: true
 
@@ -117,3 +123,12 @@ js_minifier:
   compress:
   exclude: 
     - '*.min.js'
+
+githubEmojis:
+  enable: true
+  className: github-emoji
+  unicode: false
+  styles:
+    display: inline
+    vertical-align: bottom
+  localEmojis:

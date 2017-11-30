@@ -72,35 +72,35 @@ VPN_BIN="/opt/cisco/anyconnect/bin/vpn"
 ANYCONNECT_PATH="/Applications/Cisco/Cisco AnyConnect Secure Mobility Client.app"
 
 get_anyclient_ui_pid() {
-	local pid=$(ps -ef | grep "$ANYCONNECT_PATH" | grep -v 'grep' | awk '{print $2}')
-	echo $pid
+    local pid=$(ps -ef | grep "$ANYCONNECT_PATH" | grep -v 'grep' | awk '{print $2}')
+    echo $pid
 
-	if [[ -z "$pid" ]]; then
-		return 1
-	else
-		return 0
-	fi
+    if [[ -z "$pid" ]]; then
+        return 1
+    else
+        return 0
+    fi
 }
 
 kill_anyconnect_ui() {
-	$VPN_BIN disconnect
-	local pid=$(get_anyclient_ui_pid)
-	# echo "PID: $pid"
+    $VPN_BIN disconnect
+    local pid=$(get_anyclient_ui_pid)
+    # echo "PID: $pid"
 
-	if [[ -n "$pid" ]]; then
-		kill -9 $pid
-	fi
+    if [[ -n "$pid" ]]; then
+        kill -9 $pid
+    fi
 }
 
 open_client_ui() {
-	if ! get_anyclient_ui_pid &> /dev/zero; then
-		open "$ANYCONNECT_PATH"
-	fi
+    if ! get_anyclient_ui_pid &> /dev/zero; then
+        open "$ANYCONNECT_PATH"
+    fi
 }
 
 connect() {
-	# sudo /opt/cisco/anyconnect/bin/vpnagentd
-	kill_anyconnect_ui
+    # sudo /opt/cisco/anyconnect/bin/vpnagentd
+    kill_anyconnect_ui
 
 $VPN_BIN -s << EOF
 connect $VPN_URL
@@ -109,22 +109,22 @@ $PASSWORD
 y
 EOF
 
-	open_client_ui
+    open_client_ui
 }
 
 main() {
-	if [[ -z "$USERNAME" || -z "$PASSWORD" || -z "$VPN_URL" ]]; then
-		echo "Error: empty user info"
-		exit 1
-	fi
+    if [[ -z "$USERNAME" || -z "$PASSWORD" || -z "$VPN_URL" ]]; then
+        echo "Error: empty user info"
+        exit 1
+    fi
 
-	case "$1" in
-		stop|s )
-			$VPN_BIN disconnect
-			;;
-		* )
-			connect
-	esac
+    case "$1" in
+        stop|s )
+            $VPN_BIN disconnect
+            ;;
+        * )
+            connect
+    esac
 }
 
 main "$*"
@@ -142,3 +142,4 @@ main "$*"
 <img src="http://on2hdrotz.bkt.clouddn.com/blog/1511848203769.png" width="555"/>
 
 没有任何参数时会连接 VPN ，输入参数 `s|stop` 就会断开 VPN 连接。
+
