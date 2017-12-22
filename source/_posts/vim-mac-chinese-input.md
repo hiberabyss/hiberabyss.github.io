@@ -12,6 +12,9 @@ tags:
 在需要输入中文时，每次的 mode 切换都需要进行输入法的切换，很麻烦。
 通过 [SmartIM](https://github.com/ybian/smartim.git) 插件可以很好的解决这个问题。
 
+Update: 当 macOS 升级到最新版本后（10.13），原来的插件会失效，可以使用我 fork 出来的
+[SmartIM](https://github.com/hiberabyss/smartim)。
+
 <!--more-->
 
 ## SmartIM 是怎么解决这个问题的
