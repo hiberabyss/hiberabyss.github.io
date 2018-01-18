@@ -79,4 +79,7 @@ Enter the 6-digit code from your MFA device:
 2. 我们还可以直接在 aws 命令前加上 aws-mfa 。我个人更喜欢这种方式，可以在 shell rc 文件里配置
 `alias aws='aws-mfa aws'` 这样的 alias
 
+## 使用 python 包 awsmfa
 
+我们还可以使用另一个用 python 写的 aws mfa 的包，使用 `pip install awsmfa` 安装。
+然后执行 `awsmfa -i default` 即可。 [这里](https://pypi.python.org/pypi/awsmfa) 是详细的使用文档。
