@@ -52,3 +52,15 @@ fab -P --fabfile $HOME/github/fabric-kubernetes-nodes/fabfile.py \
 [10.28.2.248] out: Fri Dec 22 02:53:01 UTC 2017
 [10.28.2.248] out:
 ```
+
+## 给 Instance Group(IG) 加上 nodeLable
+
+当通过 kops 创建 k8s 集群时，我们可以通过如下的方式给 IG 加上 label ，
+就可以通过这个 label 对整个 IG 进行操作：
+
+```yaml
+spec:
+  nodeLabels:
+    ads: perf
+```
+

@@ -40,7 +40,7 @@ NAT Gateway 会绑定到某个 subnet(属于某个 VPC) 上，这个 subnet 需�
 选中对应的 Private Subnet 界面，在下面的界面中点中 Route Table ，把默认网关改成我们创建的
 NAT Gateway 即可。注意这里的 Route Table 不能和 Public Subnet 的 Route Table 一样。
 
-<img src="http://on2hdrotz.bkt.clouddn.com/blog/1516245648658.png" width="609"/>
+<img src="http://on2hdrotz.bkt.clouddn.com/blog/1516247418560.png" width="607"/>
 
 # Troubleshooting
 
