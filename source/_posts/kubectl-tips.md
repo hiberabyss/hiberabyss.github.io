@@ -10,11 +10,11 @@ tags:
 使用 K8S 的话就需要经常用到 kubectl ，有一些实用的小工具能提高我们使用 kubectl 的效率。
 我把这些小工具打包放在了 [github](https://github.com/hiberabyss/k8s-tools) 上。
 执行命令 `sh -c "$(wget -O- https://raw.githubusercontent.com/hiberabyss/k8s-tools/master/install.sh)"`
-即可成功安装。下面我会详细介绍这些小工具。
+即可成功安装 (可能需要执行 `source ~/.bashrc` 或 `source ~/.zshrc`)。下面我会详细介绍这些小工具的用法。
 
 <!--more-->
 
-这个 repo 库里除了帮忙安装 `kubectl` ，还会提供以下三个工具：`kexe` 、 `kns` 、 `kctx`。
+这个 repo 库里除了帮忙安装 `kubectl` ，还会提供以下几个工具：`kexe`, `kget`, `kns`, `kctx`。
 
 # kexe
 
@@ -23,9 +23,34 @@ tags:
 ```sh
 [ec2-user@ip-10-11-111-111 ~]$ kexe demo-5d8d688c78-qcs7p sh
 / #
+
+# using partial match
+➜  .dotfiles git:(master) kexe dns-806549836-krtrf sh -n kube-system
+Defaulting container name to kubedns.
+Use 'kubectl describe pod/kube-dns-806549836-krtrf' to see all of the containers in this pod.
+/ # %
 ```
 
-这个命令接收两个参数，第一个是 pod 名；第二个是 shell 的类型，这个参数是可选项，默认是 bash 。
+这个命令接收两个参数 ：
+
+* 第一个是 pod 名，可以部分匹配；
+* 第二个是 shell 的类型，这个参数是可选项，默认是 bash 。
+
+更详细的是用方法可以执行 `kexe -h` 获取
+
+# kget
+
+这个工具是对 `kubectl get` 的一个封装，但增加了模糊匹配的功能：
+
+```sh
+[ec2-user@ip-10-24-254-11 ~]$ kget pod dns -a
+kube-system   dns-controller-5cbcd846f9-dg2kp                         1/1       Running   0          7d        10.24.255.153   ip-10-24-255-153.ec2.internal
+kube-system   kube-dns-7f56f9f8c7-7qjg2                               3/3       Running   0          3h        100.96.12.3     ip-10-24-255-251.ec2.internal
+kube-system   kube-dns-7f56f9f8c7-l5tvl                               3/3       Running   0          3h        100.96.11.4     ip-10-24-255-117.ec2.internal
+kube-system   kube-dns-autoscaler-f4c47db64-895rk                     1/1       Running   0          3h        100.96.12.4     ip-10-24-255-251.ec2.internal
+```
+
+具体的使用方法可以查看 `kget -h`
 
 # kns
 
