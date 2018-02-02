@@ -1,9 +1,9 @@
 ---
-title: 直接在 vim 里标记 iptables 规则 
+title: 直接在 vim 里编辑 iptables 规则 
 date: 2018-02-02 13:53:52
 toc: true
 tags:
-	- vim
+    - VIM
     - iptables
 ---
 

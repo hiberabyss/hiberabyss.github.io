@@ -3,7 +3,7 @@ title: 一些实用的 kubectl 工具
 date: 2018-01-18 15:01:46
 toc: true
 tags:
-	- k8s
+    - K8S
     - kubectl
 ---
 
