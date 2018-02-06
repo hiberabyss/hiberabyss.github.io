@@ -135,14 +135,38 @@ Content-type: text/html; charset=UTF-8
 Content-Length: 1718
 ```
 
+## 从别的机器直接访问宿主机映射后的端口
+
 把下面地规则加入到 iptalbe 里, 我们便可以通过宿主机的 8088 端口访问到这个 service 了:
 
 ```sh
-[ec2-user@ip-10-24-254-11 ~]$ sudo iptables -t nat -A OUTPUT -p tcp -m tcp --dport 8088 -j DNAT --to-destination 172.8.0.8:8000
-[ec2-user@ip-10-24-254-11 ~]$ curl -I 10.24.254.11:8088
+[ec2-user@ip-10-24-254-11 ~]$ sudo iptables -t nat -A PREROUTING -p tcp -m tcp --dport 8088 -j DNAT --to-destination 172.8.0.8:8000
+[ec2-user@ip-10-24-254-11 ~]$ sudo iptables -t filter -A FORWARD -p tcp -m tcp --dport 8000 -j ACCEPT
+
+# need to be in another machine
+centos@ip-10-24-255-93:~ · 09:50 AM Mon Feb 05 ·
+!56 $ curl -I 10.24.254.11:8088
 HTTP/1.0 200 OK
 Server: SimpleHTTP/0.6 Python/2.7.12
-Date: Mon, 05 Feb 2018 05:58:00 GMT
+Date: Mon, 05 Feb 2018 09:51:40 GMT
+Content-type: text/html; charset=UTF-8
+Content-Length: 1718
+```
+
+注意这里必须要在别地机器上访问宿主机的 8088 端口! 
+
+## 直接在宿主机上访问映射后的端口
+
+添加如下两条 iptables 规则后即可直接在本机地址上访问:
+
+```sh
+[ec2-user@ip-10-24-254-11 ~]$ sudo iptables -t nat -A OUTPUT -p tcp -m tcp --dport 8088 -j DNAT --to-destination 172.8.0.8:8000
+[ec2-user@ip-10-24-254-11 ~]$ sudo iptables -t nat -A POSTROUTING -p tcp -m tcp --dport 8000 -j MASQUERADE
+
+[ec2-user@ip-10-24-254-11 ~]$ curl -I 127.0.0.1:8088
+HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/2.7.12
+Date: Tue, 06 Feb 2018 02:33:42 GMT
 Content-type: text/html; charset=UTF-8
 Content-Length: 1718
 ```
