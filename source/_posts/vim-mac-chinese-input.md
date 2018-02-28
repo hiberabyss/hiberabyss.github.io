@@ -3,17 +3,14 @@ title: 【Vim】macOS 系统下 Vim 编辑中文 tips
 date: 2017-11-14 00:01:05
 toc: true
 tags:
-	- VIM
-	- macOS
+    - VIM
+    - macOS
 ---
 
 因为 VIM 里存在多个 mode ，使得编辑中文变得很痛苦。在 Insert mode 下需要使用中文输入法，
 但当切换回 Normal 模式后又需要使用英文输入法。在 VIM 里切换 mode 是很经常的事儿，
 在需要输入中文时，每次的 mode 切换都需要进行输入法的切换，很麻烦。
 通过 [SmartIM](https://github.com/ybian/smartim.git) 插件可以很好的解决这个问题。
-
-Update: 当 macOS 升级到最新版本后（10.13），原来的插件会失效，可以使用我 fork 出来的
-[SmartIM](https://github.com/hiberabyss/smartim)。
 
 <!--more-->
 
