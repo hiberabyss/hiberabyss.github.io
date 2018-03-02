@@ -1,5 +1,5 @@
 ---
-title: .「VIM」基于项目的 VIM 配置
+title: 「VIM」基于项目的 VIM 配置
 date: 2018-02-28 11:04:17
 toc: true
 tags:
@@ -11,6 +11,10 @@ tags:
 来实现 Per Project 的 VIM 配置.
 
 <!--more-->
+
+# Demo
+
+<script src="https://asciinema.org/a/xBJ9avbKQDoPiypawPLYUdg5s.js" id="asciicast-xBJ9avbKQDoPiypawPLYUdg5s" async></script>
 
 # 如何使用
 
