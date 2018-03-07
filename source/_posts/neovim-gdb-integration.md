@@ -13,10 +13,15 @@ tags:
 断电及程序执行的位置.
 
 <!--more-->
+# Requirement
 
-# 演示
+* Neovim
+* gdb (C, C++);
+* delve (golang); 可通过 `go get -u github.com/derekparker/delve/cmd/dlv` 安装
 
-安装 VIM 插件 [NeovimGDB](https://github.com/hiberabyss/NeovimGdb):
+# [演示](https://asciinema.org/a/dT2652AAwegDo0o0gWKsGOo1W)
+
+安装 VIM 插件 [NeovimGDB][NeovimGdb]
 
 ```vim
 Plug "https://github.com/hiberabyss/NeovimGdb"
@@ -35,3 +40,19 @@ Plug "https://github.com/hiberabyss/NeovimGdb"
 5. 按 `;p` 打印光标下的变量;
 6. 按 `;gk` 退出 GDB 模式
 
+# 使用
+
+* 对于 C, C++ 类型文件, 可以通过 `GdbLocal` 启动调试窗口 (或通过默认按键映射 `,rd`); 
+* 对于 go 类型文件, 可以通过 `GoDebug` 启动调试窗口;
+* 可以调用命令 `GdbDebugStop` 来停止调试 (默认按键映射为 `;gk`);
+
+我们可以直接在调试窗口中输入调试命令, 也可以通过下列按键映射从代码窗口往调试窗口发送命令:
+
+* `;r` 发送 r 
+* `;c` 发送 c
+* `;b` 发送 b
+* `;n` 发送 n
+* `;p` 发送 p word_under_cursor
+* `;u` 发送 u
+
+[NeovimGdb]: https://github.com/hiberabyss/NeovimGdb
