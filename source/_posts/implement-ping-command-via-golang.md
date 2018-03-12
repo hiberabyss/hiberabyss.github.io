@@ -13,6 +13,8 @@ ping 是一个经常被用来检查主机间连通性的工具, 它基于 ICMP �
 
 为了了解 golang 的网络编程, 我用 go 实现了一个 ping 命令, 本文会介绍如何实现 ping 命令.
 
+<!--more-->
+
 # Demo
 
 [这里有完整的示例代码](https://github.com/hiberabyss/JustDoIt/tree/master/ping),
