@@ -1,5 +1,5 @@
 ---
-title: 进程间通信: 共享内存
+title: 进程间通信： 共享内存
 date: 2018-03-13 00:21:02
 toc: true
 categories: Linux
