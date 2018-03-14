@@ -58,6 +58,9 @@ func main() {
 	connHandler(conn)
 }
 ```
+
+接下来我们会通过一个示例来介绍如果通过 go 进行 Socket 编程,
+具体的代码存放在 [Github](https://github.com/hiberabyss/JustDoIt/tree/master/socket) 上.
  
 # 实现一个可以接受不同命令的服务端
 
