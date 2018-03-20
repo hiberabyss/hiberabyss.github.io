@@ -74,6 +74,13 @@ deploy:
 
 最后执行 `hexo generate -d`，大功告成！打开 http://your-github-id.github.io 就可以访问你的博客网站了！
 
+### 强制开启 https
+
+我们可以在 Github Pages 库里的设置中开启强制 https 功能, 这样当用户访问 http 的网页时
+会自动重定向到 https 页面.
+
+<img src="http://on2hdrotz.bkt.clouddn.com/blog/1521450041622.png" width="491"/>
+
 ## 搜索引擎检索
 
 为了让博客的内容能被百度和 Google 检索，首先需要生成对应的 sitemap：
