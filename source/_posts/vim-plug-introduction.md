@@ -1,5 +1,5 @@
 ---
-title: VIM 包管理工具 vim-plug 简明教程
+title: VIM 插件管理工具 vim-plug 简明教程
 date: 2018-03-21 21:58:39
 toc: true
 categories: vim
