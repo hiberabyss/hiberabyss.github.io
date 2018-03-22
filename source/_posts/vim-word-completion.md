@@ -1,9 +1,10 @@
 ---
 title: 【Neovim】基于自定义 keyword 的自动补全
 date: 2017-11-16 12:56:38
+categories: vim
 toc: true
 tags:
-	- VIM
+	- vim
 	- neovim
 ---
 
