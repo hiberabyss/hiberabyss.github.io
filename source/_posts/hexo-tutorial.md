@@ -2,7 +2,9 @@
 title: "Hexo 入门教程"
 date: 2017-03-13 21:41:42
 toc: true
-tags: Hexo
+categories: hexo
+tags:
+    - hexo
 ---
 
 晚上把搭好的博客发给了我的 Best Gay Friend 看，本来只是想赚一下浏览量，但基友说也想搭一个类似的博客系统。
@@ -125,6 +127,32 @@ skip_render:
 
 当做完所有这些操作之后可以通过 `site:your-blog-site` 这个搜索来验证你的博客有没有被百度和 Google 收录。
 一般需要几天的时间才能保证你的博客被搜索引擎检索到。
+
+## 利用 Hexo 部署 nodeppt 生成的 slides
+
+我平时经常会用 nodeppt 来制作 slides, 它也是基于 markdown 文件来生成对应的 slides html 文件.
+我们可以把 slides html 文件放在 hexo 中, 这样便可以实现在线的 slides, 方便和别人进行分享.
+
+我把 slides 的入口地址放在了和 "关于" 平级的 tab 上, 如下图所示:
+
+<img src="http://on2hdrotz.bkt.clouddn.com/blog/1521705301743.png" width="455"/>
+
+对于基于 maupassant 的主题, 可以在 `menu` 下面加上 Slides 入口:
+
+```yaml
+menu:
+  ...
+  - page: Slides
+    directory: slides/publish
+    icon: fa-slideshare
+```
+
+然后在 `source/slides/src` 中添加 markdown 源文件, 在目录 `sources/slides` 中使用
+`nodeppt generate src -a` 生成对应的 html 文件.
+
+当我们点击 Slides 的 tab 时便可进入如下的界面:
+
+<img src="http://on2hdrotz.bkt.clouddn.com/blog/1521711265507.png" width="290"/>
 
 ## 使用七牛作为图床
 
