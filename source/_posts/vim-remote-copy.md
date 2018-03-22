@@ -2,8 +2,9 @@
 title: 「VIM」 从远程机器复制文件内容到本机剪贴板
 date: 2017-11-30 12:35:19
 toc: true
+categories: vim
 tags:
-    - VIM
+    - vim
 ---
 
 通过 ssh 登录到远程机器后，想要复制远程机器的文件内容是一件很麻烦的事情。

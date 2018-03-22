@@ -2,8 +2,9 @@
 title: 【Vim】macOS 系统下 Vim 编辑中文 tips
 date: 2017-11-14 00:01:05
 toc: true
+categories: vim
 tags:
-    - VIM
+    - vim
     - macOS
 ---
 
