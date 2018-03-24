@@ -125,7 +125,7 @@ js_minifier:
     - '*.min.js'
 
 githubEmojis:
-  enable: true
+  enable: false
   className: github-emoji
   unicode: false
   styles:
