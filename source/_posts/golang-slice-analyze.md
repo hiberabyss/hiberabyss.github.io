@@ -81,7 +81,7 @@ fmt.Println(s)
 
 * ptr = slice.ptr + begin
 * len = end - begin
-* cap = min(cap_idx, cap(slice) - begin)
+* cap = cap_idx - begin
 
 ## slice 容量的自动扩展
 
