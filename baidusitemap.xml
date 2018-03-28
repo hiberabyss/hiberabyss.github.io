@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2018/03/23/golang-slice-analyze/</loc>
+    <lastmod>2018-03-24T14:36:42.116Z</lastmod>
+    <data>
+        <display>
+        <title>「Golang」Slice 详解</title>
+        <pubTime>2018-03-23T20:21:36.000Z</pubTime>
+        
+        <tag>go</tag>
+         
+         
+           
+             
+              <breadCrumb title="go" url="https://hiberabyss.github.io/categories/go/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2017/03/13/hexo-tutorial/</loc>
+    <lastmod>2018-03-22T09:34:30.288Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo 入门教程</title>
+        <pubTime>2017-03-14T01:41:42.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="hexo" url="https://hiberabyss.github.io/categories/hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2017/03/13/hexo-source-code-backup/</loc>
+    <lastmod>2018-03-22T05:57:01.083Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo 源文件备份</title>
+        <pubTime>2017-03-13T05:00:26.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="hexo" url="https://hiberabyss.github.io/categories/hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2017/11/30/vim-remote-copy/</loc>
+    <lastmod>2018-03-22T03:58:32.005Z</lastmod>
+    <data>
+        <display>
+        <title>「VIM」 从远程机器复制文件内容到本机剪贴板</title>
+        <pubTime>2017-11-30T17:35:19.000Z</pubTime>
+        
+        <tag>vim</tag>
+         
+         
+           
+             
+              <breadCrumb title="vim" url="https://hiberabyss.github.io/categories/vim/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2018/02/28/vim-project-configuration/</loc>
+    <lastmod>2018-03-22T03:58:26.755Z</lastmod>
+    <data>
+        <display>
+        <title>「VIM」基于项目的 VIM 配置</title>
+        <pubTime>2018-02-28T16:04:17.000Z</pubTime>
+        
+        <tag>vim</tag>
+         
+         
+           
+             
+              <breadCrumb title="vim" url="https://hiberabyss.github.io/categories/vim/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2018/02/02/vim-iptables/</loc>
+    <lastmod>2018-03-22T03:58:21.341Z</lastmod>
+    <data>
+        <display>
+        <title>直接在 vim 里编辑 iptables 规则</title>
+        <pubTime>2018-02-02T18:53:52.000Z</pubTime>
+        
+        <tag>vim</tag>
+         
+        <tag>iptables</tag>
+         
+         
+           
+             
+              <breadCrumb title="vim" url="https://hiberabyss.github.io/categories/vim/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2017/11/14/vim-mac-chinese-input/</loc>
+    <lastmod>2018-03-22T03:58:09.141Z</lastmod>
+    <data>
+        <display>
+        <title>【Vim】macOS 系统下 Vim 编辑中文 tips</title>
+        <pubTime>2017-11-14T05:01:05.000Z</pubTime>
+        
+        <tag>macOS</tag>
+         
+        <tag>vim</tag>
+         
+         
+           
+             
+              <breadCrumb title="vim" url="https://hiberabyss.github.io/categories/vim/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2017/11/16/vim-word-completion/</loc>
+    <lastmod>2018-03-22T02:34:47.980Z</lastmod>
+    <data>
+        <display>
+        <title>【Neovim】基于自定义 keyword 的自动补全</title>
+        <pubTime>2017-11-16T17:56:38.000Z</pubTime>
+        
+        <tag>neovim</tag>
+         
+        <tag>vim</tag>
+         
+         
+           
+             
+              <breadCrumb title="vim" url="https://hiberabyss.github.io/categories/vim/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2017/11/15/neovim-neoterm/</loc>
+    <lastmod>2018-03-22T02:33:04.876Z</lastmod>
+    <data>
+        <display>
+        <title>【VIM】neovim 下的 neoterm 插件的一些改进</title>
+        <pubTime>2017-11-16T04:52:32.000Z</pubTime>
+        
+        <tag>neovim</tag>
+         
+        <tag>vim</tag>
+         
+         
+           
+             
+              <breadCrumb title="vim" url="https://hiberabyss.github.io/categories/vim/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2018/03/21/vim-plug-introduction/</loc>
+    <lastmod>2018-03-21T15:11:56.109Z</lastmod>
+    <data>
+        <display>
+        <title>VIM 插件管理工具 vim-plug 简明教程</title>
+        <pubTime>2018-03-22T01:58:39.000Z</pubTime>
+        
+        <tag>vim</tag>
+         
+         
+           
+             
+              <breadCrumb title="vim" url="https://hiberabyss.github.io/categories/vim/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2018/03/20/concurrency-models/</loc>
+    <lastmod>2018-03-21T12:20:31.186Z</lastmod>
+    <data>
+        <display>
+        <title>网络并发编程模型</title>
+        <pubTime>2018-03-20T20:39:11.000Z</pubTime>
+        
+        <tag>Concurrent</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2018/03/19/hexo-gitalk-integration/</loc>
+    <lastmod>2018-03-19T08:12:19.994Z</lastmod>
+    <data>
+        <display>
+        <title>给 Hexo 博客集成 gitalk 评论系统</title>
+        <pubTime>2018-03-19T18:56:12.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="hexo" url="https://hiberabyss.github.io/categories/hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2018/03/03/git-ignore-specific-file/</loc>
+    <lastmod>2018-03-19T06:41:58.948Z</lastmod>
+    <data>
+        <display>
+        <title>「git」在 merge 的时候忽略特定的文件</title>
+        <pubTime>2018-03-04T03:06:53.000Z</pubTime>
+        
+        <tag>git</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2017/03/21/git-amend-commits/</loc>
+    <lastmod>2018-03-19T06:41:35.331Z</lastmod>
+    <data>
+        <display>
+        <title>Git Tips：修改 commits</title>
+        <pubTime>2017-03-21T04:03:41.000Z</pubTime>
+        
+        <tag>git</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2018/03/14/unix-socket-programming/</loc>
+    <lastmod>2018-03-14T09:33:55.160Z</lastmod>
+    <data>
+        <display>
+        <title>使用 Go 进行 Socket 编程</title>
+        <pubTime>2018-03-14T19:09:02.000Z</pubTime>
+        
+        <tag>go</tag>
+         
+        <tag>Socket</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="https://hiberabyss.github.io/categories/linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2018/03/13/shared-memory/</loc>
+    <lastmod>2018-03-13T04:03:16.372Z</lastmod>
+    <data>
+        <display>
+        <title>进程间通信： 共享内存</title>
+        <pubTime>2018-03-13T04:21:02.000Z</pubTime>
+        
+        <tag>IPC</tag>
+         
+        <tag>Linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="https://hiberabyss.github.io/categories/linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2018/03/12/implement-ping-command-via-golang/</loc>
+    <lastmod>2018-03-12T10:00:50.746Z</lastmod>
+    <data>
+        <display>
+        <title>使用 golang 实现 ping 命令</title>
+        <pubTime>2018-03-12T20:27:35.000Z</pubTime>
+        
+        <tag>go</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2018/03/12/tor-vpn/</loc>
+    <lastmod>2018-03-12T04:45:06.649Z</lastmod>
+    <data>
+        <display>
+        <title>「tor」基于 Tor Browser 翻墙</title>
+        <pubTime>2018-03-12T15:43:55.000Z</pubTime>
+        
+        <tag>tor</tag>
+         
+        <tag>vpn</tag>
+         
+         
+           
+             
+              <breadCrumb title="VPN" url="https://hiberabyss.github.io/categories/vpn/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2018/03/07/parallel-programing-concepts/</loc>
+    <lastmod>2018-03-07T07:50:41.878Z</lastmod>
+    <data>
+        <display>
+        <title>并行编程里的一些基本概念</title>
+        <pubTime>2018-03-07T19:43:36.000Z</pubTime>
+        
+        <tag>parallel</tag>
+         
+        <tag>coroutine</tag>
+         
+         
+           
+             
+              <breadCrumb title="programing" url="https://hiberabyss.github.io/categories/programing/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2018/02/28/neovim-gdb-integration/</loc>
+    <lastmod>2018-03-07T03:51:15.992Z</lastmod>
+    <data>
+        <display>
+        <title>「neovim」基于 neovim 终端集成 gdb</title>
+        <pubTime>2018-02-28T16:17:35.000Z</pubTime>
+        
+        <tag>neovim</tag>
+         
+        <tag>gdb</tag>
+         
+         
+           
+             
+              <breadCrumb title="vim" url="https://hiberabyss.github.io/categories/vim/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2018/03/06/programming-closure/</loc>
+    <lastmod>2018-03-06T10:20:20.184Z</lastmod>
+    <data>
+        <display>
+        <title>编程语言中的闭包</title>
+        <pubTime>2018-03-06T21:11:13.000Z</pubTime>
+        
+        <tag>Programming</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2018/03/01/blockchain-consensus/</loc>
+    <lastmod>2018-03-02T08:41:51.047Z</lastmod>
+    <data>
+        <display>
+        <title>区块链常见共识算法</title>
+        <pubTime>2018-03-01T21:58:34.000Z</pubTime>
+        
+        <tag>blockchain</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2018/02/07/docker-network-debug/</loc>
+    <lastmod>2018-02-07T03:45:26.732Z</lastmod>
+    <data>
+        <display>
+        <title>「Docker」网络调试的一个小技巧</title>
+        <pubTime>2018-02-07T16:28:28.000Z</pubTime>
+        
+        <tag>docker</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2018/02/02/docker-bridge-network-practice/</loc>
+    <lastmod>2018-02-06T02:35:00.536Z</lastmod>
+    <data>
+        <display>
+        <title>自己动手实现 Docker bridge network</title>
+        <pubTime>2018-02-02T21:45:19.000Z</pubTime>
+        
+        <tag>docker</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2018/01/14/setup-aws-cli/</loc>
+    <lastmod>2018-02-02T07:14:57.493Z</lastmod>
+    <data>
+        <display>
+        <title>配置 AWS CLI 工具</title>
+        <pubTime>2018-01-15T04:43:04.000Z</pubTime>
+        
+        <tag>AWS</tag>
+         
+        <tag>MFA</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2018/02/02/create-k8s-cluster-on-aws-via-kops/</loc>
+    <lastmod>2018-02-02T07:09:22.024Z</lastmod>
+    <data>
+        <display>
+        <title>利用 kops 在 AWS 上创建 K8S 集群</title>
+        <pubTime>2018-02-02T19:25:55.000Z</pubTime>
+        
+        <tag>AWS</tag>
+         
+        <tag>kops</tag>
+         
+        <tag>K8S</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2018/01/18/kubectl-tips/</loc>
+    <lastmod>2018-02-02T06:28:14.646Z</lastmod>
+    <data>
+        <display>
+        <title>一些实用的 kubectl 工具</title>
+        <pubTime>2018-01-18T20:01:46.000Z</pubTime>
+        
+        <tag>K8S</tag>
+         
+        <tag>kubectl</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2018/01/18/internet-access-with-nat-gateway/</loc>
+    <lastmod>2018-01-18T03:50:24.660Z</lastmod>
+    <data>
+        <display>
+        <title>【AWS】利用 NAT Gateway 给 EC2 增加外网访问</title>
+        <pubTime>2018-01-18T15:17:48.000Z</pubTime>
+        
+        <tag>AWS</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2017/12/01/k8s-run-commands-on-multiple-nodes/</loc>
+    <lastmod>2018-01-18T03:47:12.467Z</lastmod>
+    <data>
+        <display>
+        <title>在 Kubernetes 的多个 Nodes 上执行命令</title>
+        <pubTime>2017-12-01T16:31:04.000Z</pubTime>
+        
+        <tag>Kubernetes</tag>
+         
+        <tag>Fabric</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2017/11/27/no-password-anyconnect/</loc>
+    <lastmod>2017-11-28T14:59:06.352Z</lastmod>
+    <data>
+        <display>
+        <title>免密码登录 anyconnect</title>
+        <pubTime>2017-11-27T14:31:02.000Z</pubTime>
+        
+        <tag>Alfred</tag>
+         
+        <tag>macOS</tag>
+         
+        <tag>Anyconnect</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2017/11/23/aws-mfa-from-pc/</loc>
+    <lastmod>2017-11-23T13:06:22.444Z</lastmod>
+    <data>
+        <display>
+        <title>直接在电脑端获取 AWS 的 MFA code</title>
+        <pubTime>2017-11-24T01:10:35.000Z</pubTime>
+        
+        <tag>AWS</tag>
+         
+        <tag>Alfred</tag>
+         
+        <tag>macOS</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2017/11/22/k8s-persistent-volume/</loc>
+    <lastmod>2017-11-22T03:08:42.818Z</lastmod>
+    <data>
+        <display>
+        <title>利用 AWS 的 EBS 为 kubernetes 集群添加持久化存储</title>
+        <pubTime>2017-11-22T15:21:27.000Z</pubTime>
+        
+        <tag>AWS</tag>
+         
+        <tag>Kubernetes</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2017/11/20/integrate-latest-libmemcached/</loc>
+    <lastmod>2017-11-21T02:27:41.713Z</lastmod>
+    <data>
+        <display>
+        <title>在代码库中集成 1.0.28 版本的 libmemcached</title>
+        <pubTime>2017-11-20T15:28:57.000Z</pubTime>
+        
+        <tag>automake</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2017/11/13/remote-access-raspberry/</loc>
+    <lastmod>2017-11-13T15:55:58.857Z</lastmod>
+    <data>
+        <display>
+        <title>【树莓派】利用 ngrok 进行远程访问</title>
+        <pubTime>2017-11-14T04:23:42.000Z</pubTime>
+        
+        <tag>Raspberry</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2017/03/12/jenkins-pipeline-tips/</loc>
+    <lastmod>2017-09-14T03:56:15.000Z</lastmod>
+    <data>
+        <display>
+        <title>基于 Docker 搭建 Jenkins Pipeline 测试环境</title>
+        <pubTime>2017-03-12T06:29:06.000Z</pubTime>
+        
+        <tag>Jenkins</tag>
+         
+        <tag>CICD</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2017/03/04/why-I-try-to-use-emacs/</loc>
+    <lastmod>2017-09-14T03:56:15.000Z</lastmod>
+    <data>
+        <display>
+        <title>为什么我开始尝试使用 Emacs</title>
+        <pubTime>2017-03-05T03:46:54.000Z</pubTime>
+        
+        <tag>Emacs</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>
