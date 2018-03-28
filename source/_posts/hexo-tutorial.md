@@ -76,6 +76,45 @@ deploy:
 
 最后执行 `hexo generate -d`，大功告成！打开 http://your-github-id.github.io 就可以访问你的博客网站了！
 
+### 使用 443 端口连接
+
+有时 22 端口可能会被防火墙拦截, 这时执行 `hexo deploy` 时可能会遇到下面的错误信息:
+
+```txt
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+FATAL Something's wrong. Maybe you can find the solution here: http://hexo.io/docs/troubleshooting.html
+Error: fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+    at ChildProcess.<anonymous> (/Users/hbliu/Projects/Hexo/blog/node_modules/hexo-util/lib/spawn.js:37:17)
+    at ChildProcess.emit (events.js:180:13)
+    at maybeClose (internal/child_process.js:936:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:220:5)
+```
+
+这时我们可以利用 443 端口进行 ssh 连接. 修改 `~/.ssh/config` 文件, 添加以下内容:
+
+* For Github:
+```config
+Host github.com
+    hostname ssh.github.com
+    port 443
+    IdentityFile ~/.ssh/id_rsa
+```
+
+* For coding.net ([git-faq](https://coding.net/help/faq/git/git.html#_22_SSH))
+```config
+Host git.coding.net
+    hostname git-ssh.coding.net
+    port 443
+    IdentityFile ~/.ssh/id_rsa
+```
+
 ### 强制开启 https
 
 我们可以在 Github Pages 库里的设置中开启强制 https 功能, 这样当用户访问 http 的网页时
