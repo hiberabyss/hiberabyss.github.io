@@ -9,12 +9,13 @@ date: 2017-03-05 00:39:49
 
 ## 个人信息
 * Email: lhbf@qq.com
+* Working Email: hbliu@freewheel.tv (常年接收内推邮件)
 * Github: [hiberabyss](https://github.com/hiberabyss)
 * WeiBo: [@蛰渊](https://weibo.com/u/1679398612)
 
 ## 工作经历
 
-* FreeWheel, AdServing Team (2015 ~ 至今)
+* FreeWheel, AdServing Team, Senior Software Engineer (2015 ~ 至今)
     * 主要负责后端广告投放系统业务的开发和维护;
     * 期间负责开发实现部门的 CD 系统;
     * 参与 BlockGraph 项目 (基于区块链实现多个客户之间的数据共享)
