@@ -1,11 +1,12 @@
 ---
 title: 比特币交易的原理
-date: 2018-03-07 21:04:33
+date: 2018-03-30 21:04:33
 toc: true
-categories: BlockChain
+categories: blockchain
 tags:
     - blockchain
     - UTXO
+    - bitcoin
 ---
 
 本文会介绍比特币里的交易是如何发生的, 矿工挖到区块后是如何获取到比特币的,
