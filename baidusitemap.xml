@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>https://hiberabyss.github.io/2018/04/05/shell-file-description/</loc>
+    <lastmod>2018-04-06T19:29:00.663Z</lastmod>
+    <data>
+        <display>
+        <title>Bash 里的文件描述符</title>
+        <pubTime>2018-04-05T21:19:03.000Z</pubTime>
+        
+        <tag>shell</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="https://hiberabyss.github.io/categories/linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://hiberabyss.github.io/2018/04/02/tendermint-introduction-1/</loc>
     <lastmod>2018-04-03T20:39:55.703Z</lastmod>
     <data>
@@ -235,9 +255,9 @@
         <title>【Neovim】基于自定义 keyword 的自动补全</title>
         <pubTime>2017-11-16T17:56:38.000Z</pubTime>
         
-        <tag>neovim</tag>
-         
         <tag>vim</tag>
+         
+        <tag>neovim</tag>
          
          
            
@@ -257,9 +277,9 @@
         <title>【VIM】neovim 下的 neoterm 插件的一些改进</title>
         <pubTime>2017-11-16T04:52:32.000Z</pubTime>
         
-        <tag>neovim</tag>
-         
         <tag>vim</tag>
+         
+        <tag>neovim</tag>
          
          
            
@@ -436,9 +456,9 @@
         <title>「neovim」基于 neovim 终端集成 gdb</title>
         <pubTime>2018-02-28T16:17:35.000Z</pubTime>
         
-        <tag>neovim</tag>
-         
         <tag>gdb</tag>
+         
+        <tag>neovim</tag>
          
          
            
@@ -709,6 +729,23 @@
 
     
   <url>
+    <loc>https://hiberabyss.github.io/2017/03/04/why-I-try-to-use-emacs/</loc>
+    <lastmod>2017-09-14T03:56:15.000Z</lastmod>
+    <data>
+        <display>
+        <title>为什么我开始尝试使用 Emacs</title>
+        <pubTime>2017-03-05T03:46:54.000Z</pubTime>
+        
+        <tag>Emacs</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://hiberabyss.github.io/2017/03/12/jenkins-pipeline-tips/</loc>
     <lastmod>2017-09-14T03:56:15.000Z</lastmod>
     <data>
@@ -719,23 +756,6 @@
         <tag>Jenkins</tag>
          
         <tag>CICD</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://hiberabyss.github.io/2017/03/04/why-I-try-to-use-emacs/</loc>
-    <lastmod>2017-09-14T03:56:15.000Z</lastmod>
-    <data>
-        <display>
-        <title>为什么我开始尝试使用 Emacs</title>
-        <pubTime>2017-03-05T03:46:54.000Z</pubTime>
-        
-        <tag>Emacs</tag>
          
          
            
