@@ -51,6 +51,23 @@ long ptrace(enum __ptrace_request request, pid_t pid, void *addr, void *data);
 
 # GDB 断点的实现原理
 
+当我们用 GDB 设置断点时, GDB 会把断点处的指令修改成 `int 3`, 同时把断点信息及修改前的指令保存起来.
+当被调试子进程运行到断点处时, 便会执行 `int 3`命令, 从而产生 SIGTRAP 信号.
+由于 GDB 已经用 ptrace 和调试进程建立了跟踪关系, 此时的 SIGTRAP 信号会被发送给 GDB,
+GDB 通过和已有的断点信息做对比 (通过指令位置) 来判断这次 SIGTRAP 是不是一个断点.
+
+如果是断点的话, 就回等待用户的输入以做进一步的处理. 如果用户的命令是继续执行的话,
+GDB 就会先恢复断点处的指令, 然后执行对应的代码.
+
+可以看到断点的实现中需要 GDB 去修改被跟踪子进程的内存 (代码也是保存在内存中的),
+下面就先介绍下如何通过 ptrace 去修改子进程的内存.
+
+## 修改子进程内存
+
+我们通过下面的例子来演示父进程如何修改子进程的内存:
+
+* 父进程创建子进程, 并先让子进程 sleep 一段时间以保证
+
 # References
 
 * [ptrace运行原理及使用详解](https://blog.csdn.net/edonlii/article/details/8717029)

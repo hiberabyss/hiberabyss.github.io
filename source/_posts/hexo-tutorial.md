@@ -53,7 +53,46 @@ theme: maupassant-hexo
 ### 自定义 maupassant 主题
 
 - 启用博客阅读数统计：`busuanzi: true`
-- 启用对应的 Comment：gitment、valine
+- 启用对应的 Comment 插件：gitalk, gitment、valine
+
+#### 增加统计功能
+
+基于这个[文档](https://github.com/aimer1124/blog_theme)添加总阅读数的统计:
+
+* 在 `after_footer.pug` 文件中加入以下代码:
+```txt
+if theme.busuanzi == true
+  script(src='https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js', async)
+```
+* 在 `footer.pug` 文件中加入以下代码
+```txt
+if theme.busuanzi == true
+  div
+    | Total
+    span#busuanzi_container_site_pv
+      span= ' '
+      span#busuanzi_value_site_pv
+    span(rel='nofollow')= ' ' + __(' hits, ')
+    span#busuanzi_container_site_uv
+      span#busuanzi_value_site_uv
+    span(rel='nofollow')= ' ' + __(' visitors. ')
+```
+
+通过[友盟](https://web.umeng.com/main.php?c=site&a=show)添加站长统计信息. 注册完成后添加你的博客域名,
+然后进入获取代码页面, 复制你期望的样式的代码, 去除掉代码中的 script tag, 把代码放到文件 `footer.pug` 中:
+
+```txt
+div
+  script.
+       var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_avoid_use'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3Dyour-id-number%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));
+```
+
+设置完成后可以看到类似下图的效果:
+
+<img src="http://on2hdrotz.bkt.clouddn.com/blog/1523053025720.png" width="485"/>
+
+[这里](https://github.com/hiberabyss/maupassant-hexo/blob/master/layout/_partial/footer.pug)
+是完整的代码文件.
 
 ## 部署 Hexo 博客到 Github Pages
 
