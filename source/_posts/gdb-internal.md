@@ -66,7 +66,74 @@ GDB 就会先恢复断点处的指令, 然后执行对应的代码.
 
 我们通过下面的例子来演示父进程如何修改子进程的内存:
 
-* 父进程创建子进程, 并先让子进程 sleep 一段时间以保证
+* 父进程创建子进程, 并先让子进程 sleep 一段时间以保证父进程能更早运行;
+* 父进程通过 `PTRACE_ATTACH` 来和子进程建立跟踪关系;
+* 父进程修改子进程的内存数据;
+* 父进程通过调用 `PTRACE_CONT` 让子进程恢复执行;
+
+完整的代码如下所示:
+
+```c
+#include <sys/ptrace.h>
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+
+#define SHOW(call) ({ int _ret = (int)(call); printf("%s -> %d\n", #call, _ret); if (_ret < 0) { perror(NULL); }})
+
+char changeme[] = "This is  a test";
+
+int main (void) {
+    pid_t pid = fork();
+    int ret;
+    int i;
+    union {
+        char cdata[8];
+        int64_t data;
+    } u = { "Hijacked" };
+
+    switch (pid) {
+        case 0: /* child */
+            sleep(2);
+            printf("Children Message: %s\n", changeme);
+            exit(0);
+
+        case -1:
+            perror("fork");
+            exit(1);
+            break;
+
+        default: /* parent */
+            SHOW(ptrace(PTRACE_ATTACH, pid, 0, 0));
+            SHOW(ptrace(PTRACE_POKEDATA, pid, changeme, u.data));
+            SHOW(ptrace(PTRACE_CONT, pid, 0, 0));
+            printf("Parent Message: %s\n", changeme);
+            wait(NULL);
+            break;
+    }
+
+    return 0;
+}
+```
+
+上面代码的输出是:
+
+```txt
+Children Message: Hijacked a test
+ptrace(PTRACE_ATTACH, pid, 0, 0) -> 0
+ptrace(PTRACE_POKEDATA, pid, changeme, u.data) -> 0
+ptrace(PTRACE_CONT, pid, 0, 0) -> 0
+Parent Message: This is  a test
+```
+
+可以看出子进程中的字符串已经被修改了, 而父进程中的字符串依旧保持不变.
+
+在调用 `ptrace(PTRACE_POKEDATA, pid, changeme, u.data)` 时, 最后一个参数实际上是按照 `int64_t` 来处理的.
+
+## 模拟 GDB 设置断点
+
+这部分原理其实很简单, 但代码实现会稍微有些复杂. 等有人有需求时再写吧... To Be Done... :)
 
 # References
 
