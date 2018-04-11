@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hiberabyss.github.io/2018/04/11/deploy-multiple-tendermint-nodes/</loc>
+    
+    <lastmod>2018-04-11T16:15:24.246Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://hiberabyss.github.io/2018/04/04/gdb-internal/</loc>
     
-    <lastmod>2018-04-08T04:07:19.119Z</lastmod>
+    <lastmod>2018-04-08T04:09:40.625Z</lastmod>
     
   </url>
   
