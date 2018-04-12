@@ -9,12 +9,19 @@ tags:
 
 使用 K8S 的话就需要经常用到 kubectl ，有一些实用的小工具能提高我们使用 kubectl 的效率。
 我把这些小工具打包放在了 [github](https://github.com/hiberabyss/k8s-tools) 上。
-执行命令 `sh -c "$(wget -O- https://raw.githubusercontent.com/hiberabyss/k8s-tools/master/install.sh)"`
-即可成功安装 (可能需要执行 `source ~/.bashrc` 或 `source ~/.zshrc`)。下面我会详细介绍这些小工具的用法。
+
+执行下面的命令即可安装 (安装完后可能需要执行 `source ~/.bashrc` 或 `source ~/.zshrc`) :
+
+```sh
+sh -c "$(wget -O- https://raw.githubusercontent.com/hiberabyss/k8s-tools/master/install.sh)"
+```
+
+接下来会详细介绍安装完成后会包括哪些功能.
 
 <!--more-->
 
-这个 repo 库里除了帮忙安装 `kubectl` ，还会提供以下几个工具：`kexe`, `kget`, `kns`, `kctx`。
+当安装文件检查到当前系统没有 `kubectl` 时, 会自动帮你安装它.
+此外, 它还提供了以下几个工具：`kexe`, `kget`, `kns`, `kctx`。
 
 # kexe
 
@@ -36,7 +43,7 @@ Use 'kubectl describe pod/kube-dns-806549836-krtrf' to see all of the containers
 * 第一个是 pod 名，可以部分匹配；
 * 第二个是 shell 的类型，这个参数是可选项，默认是 bash 。
 
-更详细的是用方法可以执行 `kexe -h` 获取
+更详细的使用方法可以查看 `kexe -h`.
 
 # kget
 
@@ -54,7 +61,7 @@ kube-system   kube-dns-autoscaler-f4c47db64-895rk                     1/1       
 
 # kns
 
-这个命令可以用来快速地管理 k8s 的 namespaces ，直接执行 `kns` 可以显示当前所有的 namespaces ：
+这个命令可以用来方便地管理 k8s 的 namespaces ，直接执行 `kns` 可以显示当前所有的 namespaces ：
 
 ```sh
 [ec2-user@ip-10-24-111-153 ~]$ kns
