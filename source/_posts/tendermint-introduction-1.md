@@ -25,7 +25,7 @@ Tendermint 是一个模块化的区块链应用框架, 能够实现拜占庭容�
 
 下图是两者的 Workflow:
 
-![Core and ABCI communication](/img/tendermint/abci.png)
+![](abci.png)
 
 # 基于 Tendermint 的 Key-Value 存储示例
 

@@ -25,7 +25,7 @@ tags:
 默认的文件描述符也是可以被替换的, 例如我们可以替换掉 stdout 到一个文件,
 这样命令的输出就不是打印到终端, 而是被输出到文件中:
 
-![stdout replacement demo](/img/shell/shell-fd.gif)
+![](shell-fd.gif)
 
 在上面的 demo 中, 我们先是通过 `exec 1 > /tmp/stdout` 把 stdout 指向了文件 `/tmp/stdout`,
 紧接着我们执行了两条命令 `ls` 和 `pwd`, 可以看到此时终端已经没有了命令的输出.

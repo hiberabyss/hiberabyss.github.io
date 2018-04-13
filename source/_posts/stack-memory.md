@@ -77,7 +77,7 @@ void hijack() {
 
 这时我们来分析下栈内存的布局:
 
-![](/img/stack_memory.jpg)
+![](stack_memory.jpg)
 
 在为 x 和 y 分配内存时, sp 寄存器因为是按 16 字节对齐的, 所以会多了 12 个字节的填充内容.
 

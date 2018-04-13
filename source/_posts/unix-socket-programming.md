@@ -18,7 +18,7 @@ Socket 是对 TCP/UDP 封装后提供的一层接口, 我们可以利用 Socket 
 在 Unix/Linux 中的 Socket 编程主要通过调用 `listen`, `accept`, `write` `read` 等函数来实现的.
 具体如下图所示:
 
-![UnixSocket](/img/socket/unix_socket.png "opt title")
+![](/img/socket/unix_socket.png)
 
 # Golang 中的 Socket 编程模型
 
@@ -206,11 +206,11 @@ func main() {
 
 其中虚线标识被动方状态变化, 红色粗线标识主动方的状态变化:
 
-<img src="/img/socket/tcp_status1.jpg" width="600"/>
+<img src="tcp_status1.jpg" width="600"/>
 
 从服务端客户端角度来观察的状态变化:
 
-<img src="/img/socket/tcp_open_close.jpg" width="600"/>
+<img src="tcp_open_close.jpg" width="600"/>
 
 # References
 

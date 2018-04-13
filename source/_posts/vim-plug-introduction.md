@@ -152,7 +152,7 @@ Plug 'https://github.com/autozimu/LanguageClient-neovim', { 'do': ':UpdateRemote
 假定当前系统剪贴板的内容为 `https://github.com/hiberabyss/ProjectConfig`
 借助 Ultisnip 的自动补全功能, 我们可以实现如下的效果:
 
-![complete](/img/vim/vim-plug.gif)
+![](vim-plug.gif)
 
 在 `vim.snippets` 中添加如下代码即可实现上面的效果:
 

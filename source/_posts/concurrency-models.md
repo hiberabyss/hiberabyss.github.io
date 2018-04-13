@@ -76,7 +76,7 @@ IO 多路复用包括三种: select、poll、epoll, 它们的实现原理都是�
 
 具体如下图所示:
 
-![multiplexing_model](/img/network/multiplexing_model.png "opt title")
+![](multiplexing_model.png)
 
 ## select 缺点
 

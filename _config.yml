@@ -37,20 +37,19 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 1
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: true
-  tab_replace:
 
 # prism_plugin:
-  # mode: 'realtime'    # realtime/preprocess
-  # theme: 'default'
-  # line_number: true    # default false
+  # mode: 'preprocess'    # realtime/preprocess
+  # theme: 'dark'
+  # line_number: false    # default false
 
 mathjax: true
 
@@ -123,6 +122,9 @@ js_minifier:
   compress:
   exclude: 
     - '*.min.js'
+
+server:
+  log: false
 
 githubEmojis:
   enable: false
