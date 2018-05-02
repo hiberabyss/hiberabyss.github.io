@@ -4,6 +4,46 @@
 
     
   <url>
+    <loc>https://hiberabyss.github.io/2018/04/24/vim-plug-rest-console/</loc>
+    <lastmod>2018-05-02T19:15:25.104Z</lastmod>
+    <data>
+        <display>
+        <title>实现类 Postman 功能的 VIM 插件</title>
+        <pubTime>2018-04-24T22:09:10.000Z</pubTime>
+        
+        <tag>vim</tag>
+         
+         
+           
+             
+              <breadCrumb title="vim" url="https://hiberabyss.github.io/categories/vim/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2018/04/11/stack-memory/</loc>
+    <lastmod>2018-04-16T16:58:06.712Z</lastmod>
+    <data>
+        <display>
+        <title>关于栈内存分布的一道有趣的面试题</title>
+        <pubTime>2018-04-11T21:02:51.000Z</pubTime>
+        
+        <tag>memory</tag>
+         
+         
+           
+             
+              <breadCrumb title="Interviews" url="https://hiberabyss.github.io/categories/interviews/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://hiberabyss.github.io/2018/04/13/vim-file-jumper/</loc>
     <lastmod>2018-04-13T20:44:22.105Z</lastmod>
     <data>
@@ -116,26 +156,6 @@
            
              
               <breadCrumb title="blockchain" url="https://hiberabyss.github.io/categories/blockchain/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://hiberabyss.github.io/2018/04/11/stack-memory/</loc>
-    <lastmod>2018-04-13T17:25:04.625Z</lastmod>
-    <data>
-        <display>
-        <title>关于栈内存分布的一道有趣的面试题</title>
-        <pubTime>2018-04-11T21:02:51.000Z</pubTime>
-        
-        <tag>memory</tag>
-         
-         
-           
-             
-              <breadCrumb title="Interviews" url="https://hiberabyss.github.io/categories/interviews/"/>
           
         </display>
     </data>
@@ -813,23 +833,6 @@
 
     
   <url>
-    <loc>https://hiberabyss.github.io/2017/03/04/why-I-try-to-use-emacs/</loc>
-    <lastmod>2017-09-14T03:56:15.000Z</lastmod>
-    <data>
-        <display>
-        <title>为什么我开始尝试使用 Emacs</title>
-        <pubTime>2017-03-05T03:46:54.000Z</pubTime>
-        
-        <tag>Emacs</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://hiberabyss.github.io/2017/03/12/jenkins-pipeline-tips/</loc>
     <lastmod>2017-09-14T03:56:15.000Z</lastmod>
     <data>
@@ -840,6 +843,23 @@
         <tag>Jenkins</tag>
          
         <tag>CICD</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2017/03/04/why-I-try-to-use-emacs/</loc>
+    <lastmod>2017-09-14T03:56:15.000Z</lastmod>
+    <data>
+        <display>
+        <title>为什么我开始尝试使用 Emacs</title>
+        <pubTime>2017-03-05T03:46:54.000Z</pubTime>
+        
+        <tag>Emacs</tag>
          
          
            

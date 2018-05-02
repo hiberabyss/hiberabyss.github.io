@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hiberabyss.github.io/2018/04/24/vim-plug-rest-console/</loc>
+    
+    <lastmod>2018-05-02T19:15:25.104Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hiberabyss.github.io/2018/04/11/stack-memory/</loc>
+    
+    <lastmod>2018-04-16T16:58:06.712Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://hiberabyss.github.io/2018/04/13/vim-file-jumper/</loc>
     
     <lastmod>2018-04-13T20:44:22.105Z</lastmod>
@@ -40,13 +54,6 @@
     <loc>https://hiberabyss.github.io/2018/04/02/tendermint-introduction-1/</loc>
     
     <lastmod>2018-04-13T17:49:46.635Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hiberabyss.github.io/2018/04/11/stack-memory/</loc>
-    
-    <lastmod>2018-04-13T17:25:04.625Z</lastmod>
     
   </url>
   
@@ -296,14 +303,14 @@
   </url>
   
   <url>
-    <loc>https://hiberabyss.github.io/2017/03/04/why-I-try-to-use-emacs/</loc>
+    <loc>https://hiberabyss.github.io/2017/03/12/jenkins-pipeline-tips/</loc>
     
     <lastmod>2017-09-14T03:56:15.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://hiberabyss.github.io/2017/03/12/jenkins-pipeline-tips/</loc>
+    <loc>https://hiberabyss.github.io/2017/03/04/why-I-try-to-use-emacs/</loc>
     
     <lastmod>2017-09-14T03:56:15.000Z</lastmod>
     
