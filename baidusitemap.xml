@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>https://hiberabyss.github.io/2018/05/03/add-async-support-for-vim-plugin/</loc>
+    <lastmod>2018-05-03T18:09:47.725Z</lastmod>
+    <data>
+        <display>
+        <title>给 Vim 插件添加上异步调用的功能</title>
+        <pubTime>2018-05-03T16:04:55.000Z</pubTime>
+        
+        <tag>vim</tag>
+         
+         
+           
+             
+              <breadCrumb title="vim" url="https://hiberabyss.github.io/categories/vim/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://hiberabyss.github.io/2018/04/24/vim-plug-rest-console/</loc>
     <lastmod>2018-05-02T19:15:25.104Z</lastmod>
     <data>
@@ -833,6 +853,23 @@
 
     
   <url>
+    <loc>https://hiberabyss.github.io/2017/03/04/why-I-try-to-use-emacs/</loc>
+    <lastmod>2017-09-14T03:56:15.000Z</lastmod>
+    <data>
+        <display>
+        <title>为什么我开始尝试使用 Emacs</title>
+        <pubTime>2017-03-05T03:46:54.000Z</pubTime>
+        
+        <tag>Emacs</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://hiberabyss.github.io/2017/03/12/jenkins-pipeline-tips/</loc>
     <lastmod>2017-09-14T03:56:15.000Z</lastmod>
     <data>
@@ -843,23 +880,6 @@
         <tag>Jenkins</tag>
          
         <tag>CICD</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://hiberabyss.github.io/2017/03/04/why-I-try-to-use-emacs/</loc>
-    <lastmod>2017-09-14T03:56:15.000Z</lastmod>
-    <data>
-        <display>
-        <title>为什么我开始尝试使用 Emacs</title>
-        <pubTime>2017-03-05T03:46:54.000Z</pubTime>
-        
-        <tag>Emacs</tag>
          
          
            
