@@ -14,6 +14,7 @@ endfunction
 
 nmap <silent> ,ht :call ToggleDraft()<cr>
 nmap <silent> ,hs :HexoServer<cr>
+nmap <silent> ,hb :HexoBrowse<cr>
 nmap <silent> ,ho :HexoOpen<cr>
 nmap <silent> ,hd :Dispatch hexo g && hexo d<cr>
 nmap ,nn :HexoNew 
