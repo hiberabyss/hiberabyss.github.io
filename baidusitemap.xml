@@ -4,6 +4,23 @@
 
     
   <url>
+    <loc>https://hiberabyss.github.io/2018/05/03/surfingkeys-blog-share/</loc>
+    <lastmod>2018-05-03T19:09:31.952Z</lastmod>
+    <data>
+        <display>
+        <title>利用 Surfingkeys 快速分享博客到开发者头条或掘金</title>
+        <pubTime>2018-05-03T18:15:12.000Z</pubTime>
+        
+        <tag>Chrome</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://hiberabyss.github.io/2018/05/03/add-async-support-for-vim-plugin/</loc>
     <lastmod>2018-05-03T18:09:47.725Z</lastmod>
     <data>
@@ -418,9 +435,9 @@
         <title>【Vim】macOS 系统下 Vim 编辑中文 tips</title>
         <pubTime>2017-11-14T05:01:05.000Z</pubTime>
         
-        <tag>macOS</tag>
-         
         <tag>vim</tag>
+         
+        <tag>macOS</tag>
          
          
            
@@ -440,9 +457,9 @@
         <title>【Neovim】基于自定义 keyword 的自动补全</title>
         <pubTime>2017-11-16T17:56:38.000Z</pubTime>
         
-        <tag>neovim</tag>
-         
         <tag>vim</tag>
+         
+        <tag>neovim</tag>
          
          
            
@@ -462,9 +479,9 @@
         <title>【VIM】neovim 下的 neoterm 插件的一些改进</title>
         <pubTime>2017-11-16T04:52:32.000Z</pubTime>
         
-        <tag>neovim</tag>
-         
         <tag>vim</tag>
+         
+        <tag>neovim</tag>
          
          
            
@@ -853,23 +870,6 @@
 
     
   <url>
-    <loc>https://hiberabyss.github.io/2017/03/04/why-I-try-to-use-emacs/</loc>
-    <lastmod>2017-09-14T03:56:15.000Z</lastmod>
-    <data>
-        <display>
-        <title>为什么我开始尝试使用 Emacs</title>
-        <pubTime>2017-03-05T03:46:54.000Z</pubTime>
-        
-        <tag>Emacs</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://hiberabyss.github.io/2017/03/12/jenkins-pipeline-tips/</loc>
     <lastmod>2017-09-14T03:56:15.000Z</lastmod>
     <data>
@@ -880,6 +880,23 @@
         <tag>Jenkins</tag>
          
         <tag>CICD</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hiberabyss.github.io/2017/03/04/why-I-try-to-use-emacs/</loc>
+    <lastmod>2017-09-14T03:56:15.000Z</lastmod>
+    <data>
+        <display>
+        <title>为什么我开始尝试使用 Emacs</title>
+        <pubTime>2017-03-05T03:46:54.000Z</pubTime>
+        
+        <tag>Emacs</tag>
          
          
            
