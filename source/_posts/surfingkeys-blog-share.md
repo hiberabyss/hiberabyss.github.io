@@ -27,6 +27,8 @@ Surfingkeys 提供了映射特定的按键到某个 javascript 函数的功能,
 通过 javascript 来获取页面的 url 和 tile 就再容易不过了! 当我们实现这个 javascript 函数之后
 就能按几个键打开开发者头条和掘金的分享页面了, 说干就干, Let's start to hack it out!
 
+<!--more-->
+
 # Demo
 
 先让大家看下最终效果是什么样子的吧, 这样才更有动力!

@@ -17,6 +17,12 @@ root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
+sitemap:
+    path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+  url: https://hbliu.coding.me
+
 # Directory
 source_dir: source
 public_dir: public
@@ -83,11 +89,6 @@ feed:
   type: atom
   path: atom.xml
   limit: 0
-
-sitemap:
-    path: sitemap.xml
-baidusitemap:
-  path: baidusitemap.xml
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
