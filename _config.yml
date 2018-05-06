@@ -132,6 +132,7 @@ recommended_posts:
   titleHtml: <h1><a href="https://github.com/huiwang/hexo-recommended-posts">推荐文章</a></h1>
   internalLinks: 4
   externalLinks: 1
+  autoDisplay: false
 
 nofollow:
 	enable: true

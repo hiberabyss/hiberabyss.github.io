@@ -4,8 +4,8 @@ date: 2018-04-04 16:46:08
 toc: true
 categories: Linux
 tags:
-    - linux
-    - gdb
+    - Linux
+    - Gdb
     - ptrace
 ---
 

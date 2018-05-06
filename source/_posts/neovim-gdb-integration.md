@@ -1,11 +1,11 @@
 ---
-title: 「neovim」基于 neovim 终端集成 gdb
+title: 基于 neovim 终端集成 gdb
 date: 2018-02-28 11:17:35
 categories: Vim
 toc: true
 tags:
-    - neovim
-    - gdb
+    - Neovim
+    - Gdb
 ---
 
 相比于 IDE, 当使用 VIM 作为编辑器时, 调试会显得很麻烦.
