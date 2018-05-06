@@ -83,7 +83,7 @@ npm install hexo-recommended-posts --save
 <img src="http://on2hdrotz.bkt.clouddn.com/blog/1525647516111.png" width="418"/>
 
 但这里的推荐文章是和博客正文混在一起的, 而且样式也不好看.
-我们还是把它放在正文后面, 使用和版权信息类似的样式格式.
+我们还是把它放在正文后面, 使用和版权信息类似的样式.
 
 首先我们还是需要在主题的 `_config.yml` 文件中添加一些配置信息:
 
@@ -134,6 +134,9 @@ hexo server
 ```
 
 # 总结
+
+完整的代码存放在 [Github](https://github.com/hiberabyss/maupassant-hexo/blob/499d5ef3f73b6735cd5cf848438055501208a59b/layout/post.pug)
+上面.
 
 这里的代码修改还是很简单的, 不过因为对 Pug 的语法不熟悉, 导致浪费了不少时间,
 还是应该好好了解下这门 html 的模版语言的. 在后面的参考链接中我也列出了 pug 的一些学习文档.
