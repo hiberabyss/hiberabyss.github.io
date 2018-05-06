@@ -2,9 +2,9 @@
 title: 「Git」底层存储原理详解
 date: 2018-03-28 10:46:04
 toc: true
-categories: git
+categories: Git
 tags:
-    - git
+    - Git
 ---
 
 本文尝试通过一个示例去详细介绍 git 的底层存储的实现原理.

@@ -2,7 +2,7 @@
 title: 如何部署多节点 Tendermint 集群
 date: 2018-04-11 10:47:28
 toc: true
-categories: blockchain
+categories: Blockchain
 tags:
     - tendermint
 ---

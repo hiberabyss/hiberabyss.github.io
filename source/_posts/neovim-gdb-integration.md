@@ -1,7 +1,7 @@
 ---
 title: 「neovim」基于 neovim 终端集成 gdb
 date: 2018-02-28 11:17:35
-categories: vim
+categories: Vim
 toc: true
 tags:
     - neovim

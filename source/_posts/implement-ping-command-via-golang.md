@@ -2,7 +2,7 @@
 title: 使用 golang 实现 ping 命令
 date: 2018-03-12 16:27:35
 toc: true
-categories:
+categories: Go
 tags:
     - go
 ---

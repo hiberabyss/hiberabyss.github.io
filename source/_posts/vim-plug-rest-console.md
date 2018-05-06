@@ -2,7 +2,7 @@
 title: 实现类 Postman 功能的 VIM 插件
 date: 2018-04-24 18:09:10
 toc: true
-categories: vim
+categories: Vim
 tags:
     - vim
 ---

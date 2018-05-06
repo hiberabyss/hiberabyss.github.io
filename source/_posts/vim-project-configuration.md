@@ -2,7 +2,7 @@
 title: 「VIM」基于项目的 VIM 配置
 date: 2018-02-28 11:04:17
 toc: true
-categories: vim
+categories: Vim
 tags:
     - vim
 ---

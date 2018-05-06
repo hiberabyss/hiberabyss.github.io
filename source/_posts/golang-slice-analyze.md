@@ -2,9 +2,9 @@
 title: 「Golang」Slice 详解
 date: 2018-03-23 16:21:36
 toc: true
-categories: go
+categories: Go
 tags:
-    - go
+    - Go
 ---
 
 slice 是 go 里面最常用到的数据结构了, 但稍有不慎, 就会踩到一些坑.

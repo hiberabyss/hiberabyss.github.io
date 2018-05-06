@@ -2,7 +2,7 @@
 title: 利用 Surfingkeys 快速分享博客到开发者头条或掘金
 date: 2018-05-03 14:15:12
 toc: true
-categories: 
+categories: Tool
 tags:
     - Chrome
 ---

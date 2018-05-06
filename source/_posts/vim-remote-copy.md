@@ -2,7 +2,7 @@
 title: 「VIM」 从远程机器复制文件内容到本机剪贴板
 date: 2017-11-30 12:35:19
 toc: true
-categories: vim
+categories: Vim
 tags:
     - vim
 ---

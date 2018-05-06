@@ -2,7 +2,7 @@
 title: 给 Vim 插件添加上异步调用的功能
 date: 2018-05-03 12:04:55
 toc: true
-categories: vim
+categories: Vim
 tags:
     - vim
 ---

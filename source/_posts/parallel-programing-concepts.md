@@ -2,7 +2,7 @@
 title: 并行编程里的一些基本概念
 date: 2018-03-07 14:43:36
 toc: true
-categories: programing
+categories: Programing
 tags:
     - parallel
     - coroutine

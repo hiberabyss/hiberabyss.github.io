@@ -2,7 +2,7 @@
 title: 区块链框架 Tendermint 入门教程
 date: 2018-04-02 17:17:52
 toc: true
-categories: blockchain
+categories: Blockchain
 tags:
     - tendermint
 ---

@@ -2,7 +2,7 @@
 title: 用 go 实现简易版的请求限流和流量统计
 date: 2018-05-04 00:03:49
 toc: true
-categories: go
+categories: Go
 tags:
     - go
 ---
@@ -187,6 +187,6 @@ total: 7
 
 欢迎大家多多留言交流!
 
-# 参考文献
+# 参考链接
 
 - [接口限流算法总结](http://www.kissyu.org/2016/08/13/%E9%99%90%E6%B5%81%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93/)

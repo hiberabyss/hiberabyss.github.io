@@ -1,9 +1,10 @@
 ---
-title: 「git」在 merge 的时候忽略特定的文件
+title: 「Git」在 merge 的时候忽略特定的文件
 date: 2018-03-03 22:06:53
 toc: true
+categories: Git
 tags:
-    - git
+    - Git
 ---
 
 有时当我们 merge 别的分支到当前分支时, 希望当前分支的某个文件能保持不变.

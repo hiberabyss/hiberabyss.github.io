@@ -2,7 +2,7 @@
 title: 关于栈内存分布的一道有趣的面试题
 date: 2018-04-11 17:02:51
 toc: true
-categories: Interviews
+categories: Interview
 tags:
     - memory
 ---

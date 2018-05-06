@@ -2,7 +2,7 @@
 title: "Hexo 入门教程"
 date: 2017-03-13 21:41:42
 toc: true
-categories: hexo
+categories: Hexo
 tags:
     - hexo
 ---

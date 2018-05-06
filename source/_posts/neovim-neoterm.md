@@ -1,7 +1,7 @@
 ---
 title: 【VIM】neovim 下的 neoterm 插件的一些改进
 date: 2017-11-15 23:52:32
-categories: vim
+categories: Vim
 toc: true
 tags:
     - vim

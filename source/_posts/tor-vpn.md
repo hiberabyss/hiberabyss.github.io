@@ -2,9 +2,9 @@
 title: 「tor」基于 Tor Browser 翻墙
 date: 2018-03-12 11:43:55
 toc: true
-categories: VPN
+categories: Tool
 tags:
-    - tor
+    - Tor
     - vpn
 ---
 

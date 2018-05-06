@@ -127,6 +127,15 @@ js_minifier:
 server:
   log: false
 
+recommended_posts:
+  enable: true
+  titleHtml: <h1><a href="https://github.com/huiwang/hexo-recommended-posts">推荐文章</a></h1>
+  internalLinks: 4
+  externalLinks: 1
+
+nofollow:
+	enable: true
+
 githubEmojis:
   enable: false
   className: github-emoji

@@ -6,6 +6,7 @@ categories: Linux
 tags:
     - IPC
     - Linux
+    - Interview
 ---
 
 Linux 中的进程通信主要包括以下几种方式:

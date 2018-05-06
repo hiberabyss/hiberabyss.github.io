@@ -2,7 +2,7 @@
 title: 给 Hexo 博客集成 gitalk 评论系统
 date: 2018-03-19 14:56:12
 toc: true
-categories: hexo
+categories: Hexo
 tags:
     - hexo
 ---

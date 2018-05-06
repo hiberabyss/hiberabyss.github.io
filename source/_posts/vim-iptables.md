@@ -2,7 +2,7 @@
 title: 直接在 vim 里编辑 iptables 规则 
 date: 2018-02-02 13:53:52
 toc: true
-categories: vim
+categories: Vim
 tags:
     - vim
     - iptables

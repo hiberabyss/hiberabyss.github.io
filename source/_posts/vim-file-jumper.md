@@ -2,7 +2,7 @@
 title: 「VIM」文件快速跳转插件
 date: 2018-04-13 15:51:22
 toc: true
-categories: vim
+categories: Vim
 tags:
     - vim
 ---
