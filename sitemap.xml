@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hiberabyss.github.io/2018/05/06/hexo-copyright-recommendations/</loc>
+    
+    <lastmod>2018-05-06T23:11:36.066Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hiberabyss.github.io/2018/04/13/vim-file-jumper/</loc>
+    
+    <lastmod>2018-05-06T22:32:09.949Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hiberabyss.github.io/2018/02/28/neovim-gdb-integration/</loc>
+    
+    <lastmod>2018-05-06T22:09:07.809Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hiberabyss.github.io/2018/04/04/gdb-internal/</loc>
+    
+    <lastmod>2018-05-06T22:09:01.485Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://hiberabyss.github.io/2018/03/23/golang-slice-analyze/</loc>
     
     <lastmod>2018-05-06T18:52:47.984Z</lastmod>
@@ -86,13 +114,6 @@
   </url>
   
   <url>
-    <loc>https://hiberabyss.github.io/2018/02/28/neovim-gdb-integration/</loc>
-    
-    <lastmod>2018-05-06T18:39:29.951Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://hiberabyss.github.io/2017/03/13/hexo-source-code-backup/</loc>
     
     <lastmod>2018-05-06T18:39:29.949Z</lastmod>
@@ -145,13 +166,6 @@
     <loc>https://hiberabyss.github.io/2018/05/03/add-async-support-for-vim-plugin/</loc>
     
     <lastmod>2018-05-06T18:39:29.927Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hiberabyss.github.io/2018/04/13/vim-file-jumper/</loc>
-    
-    <lastmod>2018-05-06T18:39:29.923Z</lastmod>
     
   </url>
   
@@ -215,13 +229,6 @@
     <loc>https://hiberabyss.github.io/2018/01/18/kubectl-tips/</loc>
     
     <lastmod>2018-04-12T21:57:23.085Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hiberabyss.github.io/2018/04/04/gdb-internal/</loc>
-    
-    <lastmod>2018-04-08T04:09:40.625Z</lastmod>
     
   </url>
   
@@ -324,14 +331,14 @@
   </url>
   
   <url>
-    <loc>https://hiberabyss.github.io/2017/03/12/jenkins-pipeline-tips/</loc>
+    <loc>https://hiberabyss.github.io/2017/03/04/why-I-try-to-use-emacs/</loc>
     
     <lastmod>2017-09-14T03:56:15.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://hiberabyss.github.io/2017/03/04/why-I-try-to-use-emacs/</loc>
+    <loc>https://hiberabyss.github.io/2017/03/12/jenkins-pipeline-tips/</loc>
     
     <lastmod>2017-09-14T03:56:15.000Z</lastmod>
     
