@@ -1,5 +1,5 @@
 ---
-title: 为 maupassant 主题添加文章版权信息和推荐阅读功能
+title: 给 maupassant 主题添加文章版权信息和推荐阅读功能
 date: 2018-05-06 18:14:22
 toc: true
 categories: Hexo
