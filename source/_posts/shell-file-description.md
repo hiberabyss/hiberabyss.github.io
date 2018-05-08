@@ -101,8 +101,8 @@ ls: error: No such file or directory
 # [Process Substitution](https://www.gnu.org/software/bash/manual/html_node/Process-Substitution.html)
 
 在 bash 中提供了两个特殊的操作, 它们都可以被直接当成文件名使用:
-* `<(cmd)` : 可以看作时一个可读文件, `cmd` 命令的输出是这个文件的内容;
-* `>(cmd)` : 可以看作时一个可写文件, `cmd` 会接受输入并进行处理;
+* `<(cmd)` : 可以看作是一个可读文件, `cmd` 命令的输出是这个文件的内容;
+* `>(cmd)` : 可以看作是一个可写文件, `cmd` 会接受输入并进行处理;
 
 ## 示例
 
