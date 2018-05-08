@@ -4,7 +4,7 @@ date: 2018-04-13 15:51:22
 toc: true
 categories: Vim
 tags:
-    - vim
+    - Vim
 ---
 
 日常使用 VIM 的时候经常有跳转到特定目录下某个文件的需求:

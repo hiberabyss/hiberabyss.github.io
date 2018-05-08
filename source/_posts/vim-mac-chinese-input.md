@@ -4,7 +4,7 @@ date: 2017-11-14 00:01:05
 toc: true
 categories: Vim
 tags:
-    - vim
+    - Vim
     - macOS
 ---
 

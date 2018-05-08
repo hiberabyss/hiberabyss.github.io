@@ -4,7 +4,7 @@ date: 2018-05-03 12:04:55
 toc: true
 categories: Vim
 tags:
-    - vim
+    - Vim
 ---
 
 一些 Vim 插件可能因为计算密集或者是访问网络资源导致命令调用特别慢,

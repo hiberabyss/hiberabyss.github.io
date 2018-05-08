@@ -2,6 +2,7 @@
 title: 免密码登录 anyconnect
 date: 2017-11-27 09:31:02
 toc: true
+categories: Tool
 tags:
     - Anyconnect
     - Alfred

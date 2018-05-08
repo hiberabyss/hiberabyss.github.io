@@ -4,7 +4,7 @@ date: 2018-02-28 11:04:17
 toc: true
 categories: Vim
 tags:
-    - vim
+    - Vim
 ---
 
 有时在特定的项目中我们需要有特定的 VIM 配置, 这些配置和全局配置是不一致的

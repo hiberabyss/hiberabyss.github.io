@@ -4,8 +4,8 @@ date: 2017-11-15 23:52:32
 categories: Vim
 toc: true
 tags:
-    - vim
-    - neovim
+    - Vim
+    - Neovim
 ---
 
 Neovim 原生支持 terminal 功能，在编辑文件的同时可以新开一个 terminal 窗口，

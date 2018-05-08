@@ -4,7 +4,7 @@ date: 2017-11-30 12:35:19
 toc: true
 categories: Vim
 tags:
-    - vim
+    - Vim
 ---
 
 通过 ssh 登录到远程机器后，想要复制远程机器的文件内容是一件很麻烦的事情。

@@ -4,8 +4,8 @@ date: 2017-11-16 12:56:38
 categories: Vim
 toc: true
 tags:
-	- vim
-	- neovim
+	- Vim
+	- Neovim
 ---
 
 有时我们会期望能够根据自定义的一些 keyword 来在 VIM 里进行补全。

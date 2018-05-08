@@ -4,7 +4,7 @@ date: 2018-03-21 21:58:39
 toc: true
 categories: Vim
 tags:
-    - vim
+    - Vim
 ---
 
 作为 VIM 的重度患者, 一款好用的插件管理工具显得尤为重要,

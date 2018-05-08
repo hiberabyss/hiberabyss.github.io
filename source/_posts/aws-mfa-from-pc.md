@@ -2,6 +2,7 @@
 title: 直接在电脑端获取 AWS 的 MFA code
 date: 2017-11-23 20:10:35
 toc: true
+categories: Tool
 tags:
     - AWS
     - Alfred

@@ -4,7 +4,7 @@ date: 2018-04-24 18:09:10
 toc: true
 categories: Vim
 tags:
-    - vim
+    - Vim
 ---
 在实现 Web Server API 的时候, 经常需要发送指定的 http 请求来验证对应的返回是否符合预期.
 我们可以通过 Postman 来实现这个功能, 但这就需要在编辑器和 Postman 这两个软件之间来回的切换,
