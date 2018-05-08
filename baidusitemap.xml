@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://hbliu.coding.me/2018/04/05/shell-file-description/</loc>
+    <lastmod>2018-05-07T20:33:53.196Z</lastmod>
+  </url>  <url>
     <loc>https://hbliu.coding.me/2018/05/06/hexo-copyright-recommendations/</loc>
     <lastmod>2018-05-06T23:25:08.019Z</lastmod>
   </url>  <url>
@@ -90,9 +93,6 @@
   </url>  <url>
     <loc>https://hbliu.coding.me/2018/03/13/shared-memory/</loc>
     <lastmod>2018-05-06T18:36:43.872Z</lastmod>
-  </url>  <url>
-    <loc>https://hbliu.coding.me/2018/04/05/shell-file-description/</loc>
-    <lastmod>2018-04-13T17:54:29.845Z</lastmod>
   </url>  <url>
     <loc>https://hbliu.coding.me/2018/03/14/unix-socket-programming/</loc>
     <lastmod>2018-04-13T17:53:25.926Z</lastmod>
