@@ -4,7 +4,7 @@ date: 2017-03-13 21:41:42
 toc: true
 categories: Hexo
 tags:
-    - hexo
+    - Hexo
 ---
 
 晚上把搭好的博客发给了我的 Best Gay Friend 看，本来只是想赚一下浏览量，但基友说也想搭一个类似的博客系统。

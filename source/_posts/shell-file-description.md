@@ -4,7 +4,7 @@ date: 2018-04-05 17:19:03
 toc: true
 categories: Linux
 tags:
-    - shell
+    - Shell
 ---
 
 在 Shell 编程里经常会用到重定向操作, 它本质上是对文件描述符进行操作,

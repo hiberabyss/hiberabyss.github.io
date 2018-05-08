@@ -4,7 +4,7 @@ date: 2018-03-12 16:27:35
 toc: true
 categories: Go
 tags:
-    - go
+    - Go
 ---
 
 ping 是一个经常被用来检查主机间连通性的工具, 它基于 ICMP 协议实现,

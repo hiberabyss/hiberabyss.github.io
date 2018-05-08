@@ -5,7 +5,7 @@ toc: true
 categories: Linux
 tags:
     - Socket
-    - go
+    - Go
 ---
 
 Socket 是对 TCP/UDP 封装后提供的一层接口, 我们可以利用 Socket 编写服务端和客户端,

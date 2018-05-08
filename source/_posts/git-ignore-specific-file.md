@@ -1,5 +1,5 @@
 ---
-title: 「Git」在 merge 的时候忽略特定的文件
+title: Git：在 merge 的时候忽略特定的文件
 date: 2018-03-03 22:06:53
 toc: true
 categories: Git

@@ -4,7 +4,7 @@ date: 2017-03-13 01:00:26
 toc: true
 categories: Hexo
 tags:
-    - hexo
+    - Hexo
 ---
 
 在执行完 `hexo generate -d` 命令后会把生成的 html 文件上传到 github 上，我们还需要一种方法来备份源 markdown 文件及对应的 hexo 配置文件，
@@ -62,3 +62,4 @@ git push origin
 ```
 
 可以通过脚本的方式来自动地添加这个 `pre-hook`，具体怎么实现可以参考我写的这个[脚本](https://github.com/hiberabyss/hiberabyss.github.io/blob/hexo/blog)。
+

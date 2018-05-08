@@ -4,7 +4,7 @@ date: 2018-03-19 14:56:12
 toc: true
 categories: Hexo
 tags:
-    - hexo
+    - Hexo
 ---
 
 之前博客用的是 [Valine](https://valine.js.org/#/),
