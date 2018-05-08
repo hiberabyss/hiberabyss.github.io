@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://hbliu.coding.me/2018/05/08/kafka-demo/</loc>
+    <lastmod>2018-05-08T21:35:28.504Z</lastmod>
+  </url>  <url>
     <loc>https://hbliu.coding.me/2018/02/02/docker-bridge-network-practice/</loc>
     <lastmod>2018-05-08T02:17:22.302Z</lastmod>
   </url>  <url>
