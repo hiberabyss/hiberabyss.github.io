@@ -4,7 +4,7 @@ date: 2018-04-11 10:47:28
 toc: true
 categories: Blockchain
 tags:
-    - tendermint
+    - Tendermint
 ---
 
 这几天在忙着搭建多节点的 TenderMint 节点, 中间遇到了一些坑, 会通过这篇博客记录下整个过程.

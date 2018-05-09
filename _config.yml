@@ -132,6 +132,7 @@ recommended_posts:
   internalLinks: 4
   externalLinks: 1
   autoDisplay: false
+  excludePattern: ["davidfnck.com"]
 
 nofollow:
 	enable: true

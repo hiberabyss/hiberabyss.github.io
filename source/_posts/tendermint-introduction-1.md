@@ -4,7 +4,7 @@ date: 2018-04-02 17:17:52
 toc: true
 categories: Blockchain
 tags:
-    - tendermint
+    - Tendermint
 ---
 
 Tendermint 是一个模块化的区块链应用框架, 能够实现拜占庭容错 (BFT),

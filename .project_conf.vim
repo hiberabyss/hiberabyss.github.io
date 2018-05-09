@@ -20,4 +20,14 @@ nmap <silent> ,hd :Dispatch hexo recommend && hexo g && hexo d<cr>
 nmap ,nn :HexoNew 
 nmap ,nd :HexoNewDraft 
 
+" hexo "{{{
+function! AutoUpdateTimeStamp()
+    let curPos = getpos('.')
+    silent! 1,5s#^updated: \zs.*#\=strftime('%F %T')#
+    call cursor(curPos[1:])
+endfunction
+"}}}
+
+autocmd! BufWrite *.md call AutoUpdateTimeStamp()
+
 set expandtab

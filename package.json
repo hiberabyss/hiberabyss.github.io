@@ -22,7 +22,7 @@
     "hexo-generator-tag": "^0.2.0",
     "hexo-inject": "^1.0.0",
     "hexo-math": "^3.0.4",
-    "hexo-recommended-posts": "^1.0.0",
+    "hexo-recommended-posts": "git+https://github.com/hiberabyss/hexo-recommended-posts.git",
     "hexo-renderer-ejs": "^0.3.1",
     "hexo-renderer-marked": "^0.3.2",
     "hexo-renderer-pug": "0.0.5",
