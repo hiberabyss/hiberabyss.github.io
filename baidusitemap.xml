@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://hbliu.coding.me/2018/04/11/deploy-multiple-tendermint-nodes/</loc>
+    <lastmod>2018-05-09T20:37:17.842Z</lastmod>
+  </url>  <url>
+    <loc>https://hbliu.coding.me/2018/04/02/tendermint-introduction-1/</loc>
+    <lastmod>2018-05-09T20:37:15.018Z</lastmod>
+  </url>  <url>
     <loc>https://hbliu.coding.me/2018/05/08/kafka-demo/</loc>
-    <lastmod>2018-05-08T21:35:28.504Z</lastmod>
+    <lastmod>2018-05-09T16:12:59.000Z</lastmod>
   </url>  <url>
     <loc>https://hbliu.coding.me/2018/02/02/docker-bridge-network-practice/</loc>
     <lastmod>2018-05-08T02:17:22.302Z</lastmod>
@@ -97,14 +103,8 @@
     <loc>https://hbliu.coding.me/2018/03/20/concurrency-models/</loc>
     <lastmod>2018-05-06T18:42:29.844Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/04/02/tendermint-introduction-1/</loc>
-    <lastmod>2018-05-06T18:42:29.839Z</lastmod>
-  </url>  <url>
     <loc>https://hbliu.coding.me/2018/03/12/tor-vpn/</loc>
     <lastmod>2018-05-06T18:42:29.837Z</lastmod>
-  </url>  <url>
-    <loc>https://hbliu.coding.me/2018/04/11/deploy-multiple-tendermint-nodes/</loc>
-    <lastmod>2018-05-06T18:42:29.833Z</lastmod>
   </url>  <url>
     <loc>https://hbliu.coding.me/2018/04/11/stack-memory/</loc>
     <lastmod>2018-05-06T18:40:08.022Z</lastmod>
