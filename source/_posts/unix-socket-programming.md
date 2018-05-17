@@ -18,7 +18,7 @@ Socket 是对 TCP/UDP 封装后提供的一层接口, 我们可以利用 Socket 
 在 Unix/Linux 中的 Socket 编程主要通过调用 `listen`, `accept`, `write` `read` 等函数来实现的.
 具体如下图所示:
 
-![](/img/socket/unix_socket.png)
+![](unix_socket.png)
 
 # Golang 中的 Socket 编程模型
 
