@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://hbliu.coding.me/2018/05/21/setup-quorum-kubernetes-cluster-step-by-step/</loc>
+    <lastmod>2018-05-22T05:33:58.627Z</lastmod>
+  </url>  <url>
     <loc>https://hbliu.coding.me/2018/03/14/unix-socket-programming/</loc>
-    <lastmod>2018-05-17T18:40:57.916Z</lastmod>
+    <lastmod>2018-05-17T18:52:07.041Z</lastmod>
   </url>  <url>
     <loc>https://hbliu.coding.me/2018/05/16/shell-script-tips/</loc>
     <lastmod>2018-05-17T04:13:48.078Z</lastmod>
