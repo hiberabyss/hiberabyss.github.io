@@ -26,20 +26,20 @@ Socket 是对 TCP/UDP 封装后提供的一层接口, 我们可以利用 Socket 
 
 ```go
 func connHandler(c net.Conn) {
-	for {
+    for {
         cnt, err := c.Read(buf)
         c.Write(buf)
-	}
+    }
 
 }
 
 func main() {
-	server, err := net.Listen("tcp", ":1208")
+    server, err := net.Listen("tcp", ":1208")
 
-	for {
-		conn, err := server.Accept()
-		go connHandler(conn)
-	}
+    for {
+        conn, err := server.Accept()
+        go connHandler(conn)
+    }
 }
 ```
 
@@ -47,15 +47,15 @@ func main() {
 
 ```go
 func connHandler(c net.Conn) {
-	for {
-		c.Write(...)
-		c.Read(...)
-	}
+    for {
+        c.Write(...)
+        c.Read(...)
+    }
 }
 
 func main() {
-	conn, err := net.Dial("tcp", "localhost:1208")
-	connHandler(conn)
+    conn, err := net.Dial("tcp", "localhost:1208")
+    connHandler(conn)
 }
 ```
 
@@ -76,63 +76,63 @@ func main() {
 package main
 
 import (
-	"fmt"
-	"net"
-	"strings"
+    "fmt"
+    "net"
+    "strings"
 )
 
 func connHandler(c net.Conn) {
-	if c == nil {
-		return
-	}
+    if c == nil {
+        return
+    }
 
-	buf := make([]byte, 4096)
+    buf := make([]byte, 4096)
 
-	for {
-		cnt, err := c.Read(buf)
-		if err != nil || cnt == 0 {
-			c.Close()
-			break
-		}
+    for {
+        cnt, err := c.Read(buf)
+        if err != nil || cnt == 0 {
+            c.Close()
+            break
+        }
 
-		inStr := strings.TrimSpace(string(buf[0:cnt]))
+        inStr := strings.TrimSpace(string(buf[0:cnt]))
 
-		inputs := strings.Split(inStr, " ")
+        inputs := strings.Split(inStr, " ")
 
-		switch inputs[0] {
-		case "ping":
-			c.Write([]byte("pong\n"))
-		case "echo":
-			echoStr := strings.Join(inputs[1:], " ") + "\n"
-			c.Write([]byte(echoStr))
-		case "quit":
-			c.Close()
-			break
-		default:
-			fmt.Printf("Unsupported command: %s\n", inputs[0])
-		}
-	}
+        switch inputs[0] {
+        case "ping":
+            c.Write([]byte("pong\n"))
+        case "echo":
+            echoStr := strings.Join(inputs[1:], " ") + "\n"
+            c.Write([]byte(echoStr))
+        case "quit":
+            c.Close()
+            break
+        default:
+            fmt.Printf("Unsupported command: %s\n", inputs[0])
+        }
+    }
 
-	fmt.Printf("Connection from %v closed. \n", c.RemoteAddr())
+    fmt.Printf("Connection from %v closed. \n", c.RemoteAddr())
 }
 
 func main() {
-	server, err := net.Listen("tcp", ":1208")
-	if err != nil {
-		fmt.Printf("Fail to start server, %s\n", err)
-	}
+    server, err := net.Listen("tcp", ":1208")
+    if err != nil {
+        fmt.Printf("Fail to start server, %s\n", err)
+    }
 
-	fmt.Println("Server Started ...")
+    fmt.Println("Server Started ...")
 
-	for {
-		conn, err := server.Accept()
-		if err != nil {
-			fmt.Printf("Fail to connect, %s\n", err)
-			break
-		}
+    for {
+        conn, err := server.Accept()
+        if err != nil {
+            fmt.Printf("Fail to connect, %s\n", err)
+            break
+        }
 
-		go connHandler(conn)
-	}
+        go connHandler(conn)
+    }
 }
 ```
 
@@ -154,47 +154,47 @@ func main() {
 package main
 
 import (
-	"bufio"
-	"fmt"
-	"net"
-	"os"
-	"strings"
+    "bufio"
+    "fmt"
+    "net"
+    "os"
+    "strings"
 )
 
 func connHandler(c net.Conn) {
-	defer c.Close()
+    defer c.Close()
 
-	reader := bufio.NewReader(os.Stdin)
-	buf := make([]byte, 1024)
+    reader := bufio.NewReader(os.Stdin)
+    buf := make([]byte, 1024)
 
-	for {
-		input, _ := reader.ReadString('\n')
-		input = strings.TrimSpace(input)
+    for {
+        input, _ := reader.ReadString('\n')
+        input = strings.TrimSpace(input)
 
-		if input == "quit" {
-			return
-		}
+        if input == "quit" {
+            return
+        }
 
-		c.Write([]byte(input))
+        c.Write([]byte(input))
 
-		cnt, err := c.Read(buf)
-		if err != nil {
-			fmt.Printf("Fail to read data, %s\n", err)
-			continue
-		}
+        cnt, err := c.Read(buf)
+        if err != nil {
+            fmt.Printf("Fail to read data, %s\n", err)
+            continue
+        }
 
-		fmt.Print(string(buf[0:cnt]))
-	}
+        fmt.Print(string(buf[0:cnt]))
+    }
 }
 
 func main() {
-	conn, err := net.Dial("tcp", "localhost:1208")
-	if err != nil {
-		fmt.Printf("Fail to connect, %s\n", err)
-		return
-	}
+    conn, err := net.Dial("tcp", "localhost:1208")
+    if err != nil {
+        fmt.Printf("Fail to connect, %s\n", err)
+        return
+    }
 
-	connHandler(conn)
+    connHandler(conn)
 }
 ```
 
