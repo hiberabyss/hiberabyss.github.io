@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hiberabyss.github.io/2018/05/22/graphql-introduction-via-github-api/</loc>
+    
+    <lastmod>2018-05-23T05:19:36.973Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hiberabyss.github.io/2018/04/24/vim-plug-rest-console/</loc>
+    
+    <lastmod>2018-05-22T20:16:38.524Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://hiberabyss.github.io/2018/05/21/setup-quorum-kubernetes-cluster-step-by-step/</loc>
     
     <lastmod>2018-05-22T05:33:58.627Z</lastmod>
@@ -103,13 +117,6 @@
     <loc>https://hiberabyss.github.io/2018/03/12/implement-ping-command-via-golang/</loc>
     
     <lastmod>2018-05-08T01:00:29.255Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hiberabyss.github.io/2018/04/24/vim-plug-rest-console/</loc>
-    
-    <lastmod>2018-05-08T00:49:31.502Z</lastmod>
     
   </url>
   
