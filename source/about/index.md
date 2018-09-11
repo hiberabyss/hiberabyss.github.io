@@ -9,7 +9,7 @@ date: 2017-03-05 00:39:49
 
 ## 个人信息
 * Email: lhbf@qq.com
-* Working Email: hbliu@freewheel.tv (常年接收内推邮件)
+* Working Email: hongboliu@tencent.com (常年接收内推邮件)
 * Github: [hiberabyss](https://github.com/hiberabyss)
 * WeiBo: [@蛰渊](https://weibo.com/u/1679398612)
 
