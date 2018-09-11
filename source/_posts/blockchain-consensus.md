@@ -3,6 +3,7 @@ title: 区块链常见共识算法
 date: 2018-03-01 16:58:34
 toc: true
 mathjax: true
+categories: blockchain
 tags:
     - blockchain
 ---

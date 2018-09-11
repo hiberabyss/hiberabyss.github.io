@@ -6,6 +6,7 @@ categories: Kubernetes
 tags:
     - Kubernetes
     - Quorum
+    - Blockchain
 ---
 
 我们经常会遇到搭建多节点集群得需求, 例如摩根推出的基于以太坊的区块链 [Quorum](https://github.com/jpmorganchase/quorum).
