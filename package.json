@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "3.7.1"
+    "version": "3.8.0"
   },
   "dependencies": {
-    "grunt-contrib-imagemin": "^2.0.1",
-    "hexo": "^3.7.1",
+    "grunt-contrib-imagemin": "^3.1.0",
+    "hexo": "^3.8.0",
     "hexo-all-minifier": "0.5.2",
     "hexo-autonofollow": "^1.0.1",
     "hexo-browsersync": "^0.3.0",
@@ -28,8 +28,8 @@
     "hexo-renderer-pug": "0.0.5",
     "hexo-renderer-sass": "^0.3.2",
     "hexo-renderer-stylus": "^0.3.3",
-    "hexo-server": "^0.3.2",
-    "hexo-wordcount": "^3.0.2",
-    "node-sass": "^4.9.0"
+    "hexo-server": "^0.3.3",
+    "hexo-wordcount": "^6.0.1",
+    "node-sass": "^4.10.0"
   }
 }
