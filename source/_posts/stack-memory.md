@@ -21,7 +21,7 @@ void hijack() {
 
 int main(int argc, char *argv[]) {
     int x = 100;
-    printf("x = %d\n", x, );
+    printf("x = %d\n", x);
     hijack();
     printf("x = %d\n", x);
     return 0;
