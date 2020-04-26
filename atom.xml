@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hiberabyss.github.io/"/>
-  <updated>2018-05-23T05:19:36.000Z</updated>
+  <updated>2020-04-26T14:04:56.825Z</updated>
   <id>https://hiberabyss.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何使用 Vim 编辑二进制文件</title>
+    <link href="https://hiberabyss.github.io/2020/04/26/vim-edit-binary/"/>
+    <id>https://hiberabyss.github.io/2020/04/26/vim-edit-binary/</id>
+    <published>2020-04-26T06:04:52.000Z</published>
+    <updated>2020-04-26T14:04:56.825Z</updated>
+    
+    <content type="html"><![CDATA[<p>前段时间参加公司内部的一个技术比赛：实现一个打印自己 MD5 值的最小 elf64 格式二进制文件。 在这个过程中需要对二进制文件的某些字节进行修改、删除等编辑操作，本文介绍如果通过 Vim 来编辑二进制文件。</p><a id="more"></a><h1 id="基于-xxd-命令来实现"><a href="#基于-xxd-命令来实现" class="headerlink" title="基于 xxd 命令来实现"></a>基于 xxd 命令来实现</h1><p>先设定 buffer 和文件的编码格式为 utf-8 ：</p><figure class="highlight vim"><table><tr><td class="code"><pre><span class="line"><span class="keyword">set</span> encoding=utf-<span class="number">8</span></span><br><span class="line"><span class="keyword">set</span> fileencoding=utf-<span class="number">8</span></span><br></pre></td></tr></table></figure><p>打开二进制文件，设定 binary 模式 <code>set binary</code>， 在 Vim 里执行 <code>%!xxd -g1</code> 即可用类似下面的界面编辑二进制文件字节：</p><p><img src="https://raw.githubusercontent.com/hiberabyss/pictures/master/20200426214430.png" alt=""></p><p>再执行 <code>:%!xxd -r</code> 转换成原始文件的格式。</p><h1 id="使用-Vim-插件-Vinarise"><a href="#使用-Vim-插件-Vinarise" class="headerlink" title="使用 Vim 插件 Vinarise"></a>使用 Vim 插件 Vinarise</h1><p><a href="https://github.com/Shougo/vinarise.vim" rel="external nofollow noopener noreferrer" target="_blank">Vinarise</a> 是一个支持二进制编辑的插件，安装之后执行 <code>Vinarise</code> 即可按二进制的方式编辑文件。</p><p>Vinarise 提供了很多方便的功能，例如移动等操作都是以字节为单位的，<code>/</code> 可以直接按二进制序列进行搜索， <code>g/</code> 则可以俺字符串进行搜索。</p><p>Vinarise 的不足之处是对删除的操作支持不够，例如不支持 <code>d</code> 这个操作，虽然可以通过 <code>x</code> 删除一整个字节，但是不支持 <code>undo</code> 操作。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;前段时间参加公司内部的一个技术比赛：实现一个打印自己 MD5 值的最小 elf64 格式二进制文件。 在这个过程中需要对二进制文件的某些字节进行修改、删除等编辑操作，本文介绍如果通过 Vim 来编辑二进制文件。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="vim" scheme="https://hiberabyss.github.io/tags/vim/"/>
+    
+      <category term="binary" scheme="https://hiberabyss.github.io/tags/binary/"/>
+    
+  </entry>
   
   <entry>
     <title>通过 Github V4 API 来了解 GraphQL</title>
@@ -1050,9 +1072,9 @@
       <category term="Vim" scheme="https://hiberabyss.github.io/categories/vim/"/>
     
     
-      <category term="Vim" scheme="https://hiberabyss.github.io/tags/vim/"/>
-    
       <category term="macOS" scheme="https://hiberabyss.github.io/tags/macos/"/>
+    
+      <category term="Vim" scheme="https://hiberabyss.github.io/tags/vim/"/>
     
   </entry>
   
