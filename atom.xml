@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hiberabyss.github.io/"/>
-  <updated>2020-04-26T14:04:56.825Z</updated>
+  <updated>2020-05-06T07:16:08.770Z</updated>
   <id>https://hiberabyss.github.io/</id>
   
   <author>
@@ -17,11 +17,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>使用 Vim 查看 Fiddler 生成的 saz 格式 session 包</title>
+    <link href="https://hiberabyss.github.io/2020/05/06/vim-open-saz-file/"/>
+    <id>https://hiberabyss.github.io/2020/05/06/vim-open-saz-file/</id>
+    <published>2020-05-06T06:32:05.000Z</published>
+    <updated>2020-05-06T07:16:08.770Z</updated>
+    
+    <content type="html"><![CDATA[<p>Fiddler 是 Windows 下很流行的 Http 抓包工具，它可以把抓到的 Http 请求保存为 saz 格式。 在工作中调试后台服务时，同事经常会发过来一个 saz 格式的文件，但我是用的 macOS 系统， 而 Fiddler 没有 macOS 的版本，就没法直接查看 saz 格式文件。</p><p>后来通过 Google 发现 Fiddler 其实是一个 zip 包，Http 的请求和回包都保存在特定的文件里：</p><ul><li><code>sessionid#_c.txt</code> 客户端请求</li><li><code>sessionid#_s.txt</code> 服务端回包</li></ul><p>而最新版本的 Vim 是可以直接识别 zip 包并打开对应的文件的，这样我们就可以直接用 Vim 查看 saz 格式的文件了。 先在 vimrc 里加上如下的配置：</p><figure class="highlight vim"><table><tr><td class="code"><pre><span class="line"><span class="keyword">autocmd</span> BufReadCmd *.saz <span class="keyword">call</span> zip#Browse(<span class="built_in">expand</span>(<span class="string">"&lt;amatch&gt;"</span>))</span><br></pre></td></tr></table></figure><p><img src="img/posts/0f6a442b6a5d380493489cec0ff34d15-1588749137.jpg" alt=""></p><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Fiddler 是 Windows 下很流行的 Http 抓包工具，它可以把抓到的 Http 请求保存为 saz 格式。 在工作中调试后台服务时，同事经常会发过来一个 saz 格式的文件，但我是用的 macOS 系统， 而 Fiddler 没有 macOS 的版本，就没法直接查看 saz 格式文件。&lt;/p&gt;&lt;p&gt;后来通过 Google 发现 Fiddler 其实是一个 zip 包，Http 的请求和回包都保存在特定的文件里：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;code&gt;sessionid#_c.txt&lt;/code&gt; 客户端请求&lt;/li&gt;&lt;li&gt;&lt;code&gt;sessionid#_s.txt&lt;/code&gt; 服务端回包&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;而最新版本的 Vim 是可以直接识别 zip 包并打开对应的文件的，这样我们就可以直接用 Vim 查看 saz 格式的文件了。 先在 vimrc 里加上如下的配置：&lt;/p&gt;&lt;figure class=&quot;highlight vim&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;autocmd&lt;/span&gt; BufReadCmd *.saz &lt;span class=&quot;keyword&quot;&gt;call&lt;/span&gt; zip#Browse(&lt;span class=&quot;built_in&quot;&gt;expand&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&quot;&amp;lt;amatch&amp;gt;&quot;&lt;/span&gt;))&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img src=&quot;img/posts/0f6a442b6a5d380493489cec0ff34d15-1588749137.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Fiddler" scheme="https://hiberabyss.github.io/tags/fiddler/"/>
+    
+  </entry>
+  
+  <entry>
     <title>如何使用 Vim 编辑二进制文件</title>
     <link href="https://hiberabyss.github.io/2020/04/26/vim-edit-binary/"/>
     <id>https://hiberabyss.github.io/2020/04/26/vim-edit-binary/</id>
     <published>2020-04-26T06:04:52.000Z</published>
-    <updated>2020-04-26T14:04:56.825Z</updated>
+    <updated>2020-04-26T14:04:56.000Z</updated>
     
     <content type="html"><![CDATA[<p>前段时间参加公司内部的一个技术比赛：实现一个打印自己 MD5 值的最小 elf64 格式二进制文件。 在这个过程中需要对二进制文件的某些字节进行修改、删除等编辑操作，本文介绍如果通过 Vim 来编辑二进制文件。</p><a id="more"></a><h1 id="基于-xxd-命令来实现"><a href="#基于-xxd-命令来实现" class="headerlink" title="基于 xxd 命令来实现"></a>基于 xxd 命令来实现</h1><p>先设定 buffer 和文件的编码格式为 utf-8 ：</p><figure class="highlight vim"><table><tr><td class="code"><pre><span class="line"><span class="keyword">set</span> encoding=utf-<span class="number">8</span></span><br><span class="line"><span class="keyword">set</span> fileencoding=utf-<span class="number">8</span></span><br></pre></td></tr></table></figure><p>打开二进制文件，设定 binary 模式 <code>set binary</code>， 在 Vim 里执行 <code>%!xxd -g1</code> 即可用类似下面的界面编辑二进制文件字节：</p><p><img src="https://raw.githubusercontent.com/hiberabyss/pictures/master/20200426214430.png" alt=""></p><p>再执行 <code>:%!xxd -r</code> 转换成原始文件的格式。</p><h1 id="使用-Vim-插件-Vinarise"><a href="#使用-Vim-插件-Vinarise" class="headerlink" title="使用 Vim 插件 Vinarise"></a>使用 Vim 插件 Vinarise</h1><p><a href="https://github.com/Shougo/vinarise.vim" rel="external nofollow noopener noreferrer" target="_blank">Vinarise</a> 是一个支持二进制编辑的插件，安装之后执行 <code>Vinarise</code> 即可按二进制的方式编辑文件。</p><p>Vinarise 提供了很多方便的功能，例如移动等操作都是以字节为单位的，<code>/</code> 可以直接按二进制序列进行搜索， <code>g/</code> 则可以俺字符串进行搜索。</p><p>Vinarise 的不足之处是对删除的操作支持不够，例如不支持 <code>d</code> 这个操作，虽然可以通过 <code>x</code> 删除一整个字节，但是不支持 <code>undo</code> 操作。</p>]]></content>
     
@@ -267,7 +287,7 @@
     <link href="https://hiberabyss.github.io/2018/04/11/stack-memory/"/>
     <id>https://hiberabyss.github.io/2018/04/11/stack-memory/</id>
     <published>2018-04-11T09:02:51.000Z</published>
-    <updated>2019-09-02T06:35:51.000Z</updated>
+    <updated>2019-09-02T06:35:51.998Z</updated>
     
     <content type="html"><![CDATA[<p>偶然间看到了下面一道面试题:</p><blockquote><p>对于下面的代码, 实现函数 hijack</p></blockquote><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">hijack</span><span class="params">()</span> </span>&#123;</span><br><span class="line">   <span class="comment">// ...</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> *argv[])</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> x = <span class="number">100</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"x = %d\n"</span>, x);</span><br><span class="line">    hijack();</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"x = %d\n"</span>, x);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><blockquote><p>使得输出结果为:</p></blockquote><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">x = 100</span><br><span class="line">x = 150</span><br></pre></td></tr></table></figure><a id="more"></a><h1 id="问题分析"><a href="#问题分析" class="headerlink" title="问题分析"></a>问题分析</h1><p>在 hijack 函数为空的情况下, 上面函数两次输出值肯定都是 100. 这道题的难点就在于如何在没有传入 x 地址的情况下, 在 hijack 函数中修改 x 的值.</p><p>要修改 x 的值就必须知道它的地址, 那除了参数传递之外, 还有没有别的途径来获取调用函数的局部变量呢? 简单分析下就可以发现是可以做到的:</p><ul><li>函数的局部变量都是存储在栈上的;</li><li>栈上存储空间的变化是有规律的;</li><li>我们可以在被调用函数声明一个局部变量 y, 再计算出 y 和 x 之间的距离, 这样就可以得到 x 的地址!</li></ul><p>上面这个方法需要我们分析在函数调用时, 栈空间是如何分配的.</p><h1 id="栈内存是如何分配的"><a href="#栈内存是如何分配的" class="headerlink" title="栈内存是如何分配的"></a>栈内存是如何分配的</h1><p>在函数调用时, 栈内存是按下面的布局进行分配的:</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">// 地址从高到低</span><br><span class="line"></span><br><span class="line">[caller0_eip, caller0_ebp] --&gt; local variables ... --&gt; argN, ... arg1 --&gt; [caller1_eip, caller1_ebp]</span><br></pre></td></tr></table></figure><p>其中 caller_eip 存储的是调用函数的返回地址; caller_ebp 存储的是调用函数的栈基址 <code>caller1_ebp = &amp;caller0_ebp</code>. 在 64 位系统中 caller_eip 和 caller_ebp 都是 8 个字节大小, <code>int</code> 类型变量是 4 个字节.</p><p>同时 sp 和 ebp 中的地址按 16 字节对齐的, 也就是地址的最后四位必须都为 0 , 如果地址不满足这个条件, 就会额外补充一些空间.</p><p>好了, 我们先在 hijack 函数里定义局部变量变量 y :</p><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">hijack</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> y = <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>这时我们来分析下栈内存的布局:</p><p><img src="stack_memory.jpg" alt=""></p><p>在为 x 和 y 分配内存时, sp 寄存器因为是按 16 字节对齐的, 所以会多了 12 个字节的填充内容.</p><p>从图中可以看出 x 和 y 之间的距离是 <code>&amp;x - &amp;y = 12 + 8 + 8 + 8 + 4 = 32</code> 个字节.</p><p>其实我们也可以通过直接打印出 x , y 的地址来计算它们之间的距离:</p><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="string">"&amp;y = %p\n"</span>, &amp;y);</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"&amp;x = %p\n"</span>, x, &amp;x);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Result is:</span></span><br><span class="line"><span class="comment">// &amp;x = 0x7ffee7cd6e1c</span></span><br><span class="line"><span class="comment">// &amp;y = 0x7ffee7cd6dfc</span></span><br></pre></td></tr></table></figure><p>计算出距离后我们就可以写代码实现了 :)</p><h1 id="具体的代码实现"><a href="#具体的代码实现" class="headerlink" title="具体的代码实现"></a>具体的代码实现</h1><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">hijack</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> y = <span class="number">0</span>;</span><br><span class="line">    *(&amp;y + <span class="number">32</span>/<span class="keyword">sizeof</span>(<span class="keyword">int</span>)) = <span class="number">150</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> *argv[])</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> x = <span class="number">100</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"x = %d\n"</span>, x);</span><br><span class="line">    hijack();</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"x = %d\n"</span>, x);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>程序的运行结果为:</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">x = 100</span><br><span class="line">x = 150</span><br></pre></td></tr></table></figure><p>这段代码还要注意下面两点:</p><ul><li>栈是从高地址往低地址增长的, y 的地址需要 + delta 来找到 x 的地址;</li><li>C 语言中 <code>(int *) + 1</code> 相当于是往前移动了 <code>sizeof(int)</code> 个字节, 而我们之前得到的距离是按字节来计算的, 因此需要 <code>32/sizeof(int)</code>;</li></ul>]]></content>
     
@@ -1072,9 +1092,9 @@
       <category term="Vim" scheme="https://hiberabyss.github.io/categories/vim/"/>
     
     
-      <category term="macOS" scheme="https://hiberabyss.github.io/tags/macos/"/>
-    
       <category term="Vim" scheme="https://hiberabyss.github.io/tags/vim/"/>
+    
+      <category term="macOS" scheme="https://hiberabyss.github.io/tags/macos/"/>
     
   </entry>
   
