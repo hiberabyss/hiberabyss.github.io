@@ -28,4 +28,6 @@ endfunction
 
 autocmd! BufWrite *.md call AutoUpdateTimeStamp()
 
+command! -nargs=0 InsertImg :r !blogimg
+
 set expandtab

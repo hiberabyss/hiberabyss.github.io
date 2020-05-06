@@ -21,7 +21,7 @@ sitemap:
     path: sitemap.xml
 baidusitemap:
   path: baidusitemap.xml
-  url: https://hbliu.coding.me
+  url: https://hiberabyss.github.io
 
 # Directory
 source_dir: source
@@ -86,9 +86,9 @@ deploy:
   - type: git
     repo: git@github.com:hiberabyss/hiberabyss.github.io.git
     branch: master
-  - type: git
-    repo: git@git.coding.net:hbliu/hbliu.coding.me.git
-    branch: master
+  # - type: git
+  #   repo: git@git.coding.net:hbliu/hbliu.coding.me.git
+  #   branch: master
 
 marked:
   gfm: true
