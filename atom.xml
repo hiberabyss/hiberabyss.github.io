@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hiberabyss.github.io/"/>
-  <updated>2020-05-06T08:06:26.691Z</updated>
+  <updated>2020-05-06T11:09:29.898Z</updated>
   <id>https://hiberabyss.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>基于 Seafile 自建网盘</title>
+    <link href="https://hiberabyss.github.io/2020/05/06/custom-cloud-driver/"/>
+    <id>https://hiberabyss.github.io/2020/05/06/custom-cloud-driver/</id>
+    <published>2020-05-06T10:50:13.000Z</published>
+    <updated>2020-05-06T11:09:29.898Z</updated>
+    
+    <content type="html"><![CDATA[<p>现在公司给配置了 iMac 和 Macbook，平时在公司时就用 iMac，在家的时候会用 Macbook，多个终端就涉及到一些数据的同步， 例如一些配置文件、写了一半的 PPT 等。最开始尝试过使用国内的微云等网盘来进行同步，但发现同步速度很慢， 而且经常出现一些莫名其妙的同步错误。后面用过一段时间的 Dropbox，但在家时使用的翻墙工具很不稳定， 经常出现无法连接 Dropbox 的问题，而且 Dropbox 的免费空间也很小，要是同步一些大文件就显的不够用。</p><p>因为在公司可以申请一些个人使用的开发容器，磁盘空间有 500GB 左右，就考虑可以自己搭建一个同步网盘， 这样就不会被限速，而且空间也只受硬盘大小的限制；唯一的缺点就是需要连上公司的 VPN 才能使用网盘， 但毕竟也会经常同步一些公司内部的资料，连 VPN 才能使用也是一种安全保险，避免一不小心就 “高压线了”。</p><a id="more"></a><h1 id="如何搭建-Seafile-网盘服务"><a href="#如何搭建-Seafile-网盘服务" class="headerlink" title="如何搭建 Seafile 网盘服务"></a>如何搭建 Seafile 网盘服务</h1><p>可以很方便的使用 docker 来搭建 Seafile 服务：</p><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">sudo docker run -d --name seafile \</span><br><span class="line">  -e SEAFILE_SERVER_HOSTNAME=seafile.example.com \</span><br><span class="line">  -v /data/seafile-data:/shared \</span><br><span class="line">  -p 80:80 \</span><br><span class="line">  seafileltd/seafile:latest</span><br></pre></td></tr></table></figure><p>然后在浏览器里通过机器 IP 访问对应的 Web 服务创建账号，再下载 Seafile <a href="https://www.seafile.com/download/" rel="external nofollow noopener noreferrer" target="_blank">客户端</a>就可以使用了。 我是在 <code>/etc/hosts</code> 里加上了类似下面的配置，这样就可以直接通过 <code>hbliu.com</code> 来访问 Seafile 服务了。</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">192.168.0.123 hbliu.com</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;现在公司给配置了 iMac 和 Macbook，平时在公司时就用 iMac，在家的时候会用 Macbook，多个终端就涉及到一些数据的同步， 例如一些配置文件、写了一半的 PPT 等。最开始尝试过使用国内的微云等网盘来进行同步，但发现同步速度很慢， 而且经常出现一些莫名其妙的同步错误。后面用过一段时间的 Dropbox，但在家时使用的翻墙工具很不稳定， 经常出现无法连接 Dropbox 的问题，而且 Dropbox 的免费空间也很小，要是同步一些大文件就显的不够用。&lt;/p&gt;&lt;p&gt;因为在公司可以申请一些个人使用的开发容器，磁盘空间有 500GB 左右，就考虑可以自己搭建一个同步网盘， 这样就不会被限速，而且空间也只受硬盘大小的限制；唯一的缺点就是需要连上公司的 VPN 才能使用网盘， 但毕竟也会经常同步一些公司内部的资料，连 VPN 才能使用也是一种安全保险，避免一不小心就 “高压线了”。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="网盘" scheme="https://hiberabyss.github.io/tags/%E7%BD%91%E7%9B%98/"/>
+    
+  </entry>
   
   <entry>
     <title>博客中自动插入剪贴板图片链接</title>
@@ -1116,9 +1136,9 @@
       <category term="Vim" scheme="https://hiberabyss.github.io/categories/vim/"/>
     
     
-      <category term="Vim" scheme="https://hiberabyss.github.io/tags/vim/"/>
-    
       <category term="macOS" scheme="https://hiberabyss.github.io/tags/macos/"/>
+    
+      <category term="Vim" scheme="https://hiberabyss.github.io/tags/vim/"/>
     
   </entry>
   

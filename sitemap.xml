@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hiberabyss.github.io/2020/05/06/custom-cloud-driver/</loc>
+    
+    <lastmod>2020-05-06T11:09:29.898Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://hiberabyss.github.io/2020/05/06/blog-insert-image/</loc>
     
     <lastmod>2020-05-06T08:06:26.691Z</lastmod>
@@ -128,14 +135,14 @@
   </url>
   
   <url>
-    <loc>https://hiberabyss.github.io/2017/03/13/hexo-source-code-backup/</loc>
+    <loc>https://hiberabyss.github.io/2017/03/13/hexo-tutorial/</loc>
     
     <lastmod>2018-05-08T01:49:48.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://hiberabyss.github.io/2017/03/13/hexo-tutorial/</loc>
+    <loc>https://hiberabyss.github.io/2017/03/13/hexo-source-code-backup/</loc>
     
     <lastmod>2018-05-08T01:49:48.000Z</lastmod>
     
