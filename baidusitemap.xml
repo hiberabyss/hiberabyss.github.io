@@ -1,166 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hbliu.coding.me/2020/05/06/vim-open-saz-file/</loc>
-    <lastmod>2020-05-06T07:26:59.857Z</lastmod>
+    <loc>https://hiberabyss.github.io/2020/05/06/blog-insert-image/</loc>
+    <lastmod>2020-05-06T08:06:26.691Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2020/04/26/vim-edit-binary/</loc>
+    <loc>https://hiberabyss.github.io/2020/05/06/vim-open-saz-file/</loc>
+    <lastmod>2020-05-06T07:37:19.220Z</lastmod>
+  </url>  <url>
+    <loc>https://hiberabyss.github.io/2020/04/26/vim-edit-binary/</loc>
     <lastmod>2020-04-26T14:04:56.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/04/11/stack-memory/</loc>
+    <loc>https://hiberabyss.github.io/2018/04/11/stack-memory/</loc>
     <lastmod>2019-09-02T06:35:51.998Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2017/11/14/vim-mac-chinese-input/</loc>
+    <loc>https://hiberabyss.github.io/2017/11/14/vim-mac-chinese-input/</loc>
     <lastmod>2018-11-29T10:19:50.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/04/02/tendermint-introduction-1/</loc>
+    <loc>https://hiberabyss.github.io/2018/04/02/tendermint-introduction-1/</loc>
     <lastmod>2018-07-05T01:44:18.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/05/21/setup-quorum-kubernetes-cluster-step-by-step/</loc>
+    <loc>https://hiberabyss.github.io/2018/05/21/setup-quorum-kubernetes-cluster-step-by-step/</loc>
     <lastmod>2018-07-04T13:13:51.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/03/01/blockchain-consensus/</loc>
+    <loc>https://hiberabyss.github.io/2018/03/01/blockchain-consensus/</loc>
     <lastmod>2018-07-04T13:13:13.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/05/22/graphql-introduction-via-github-api/</loc>
+    <loc>https://hiberabyss.github.io/2018/05/22/graphql-introduction-via-github-api/</loc>
     <lastmod>2018-05-23T05:19:36.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/04/24/vim-plug-rest-console/</loc>
+    <loc>https://hiberabyss.github.io/2018/04/24/vim-plug-rest-console/</loc>
     <lastmod>2018-05-22T20:16:38.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/03/14/unix-socket-programming/</loc>
+    <loc>https://hiberabyss.github.io/2018/03/14/unix-socket-programming/</loc>
     <lastmod>2018-05-17T18:52:07.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/05/16/shell-script-tips/</loc>
+    <loc>https://hiberabyss.github.io/2018/05/16/shell-script-tips/</loc>
     <lastmod>2018-05-17T04:13:48.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/04/11/deploy-multiple-tendermint-nodes/</loc>
+    <loc>https://hiberabyss.github.io/2018/04/11/deploy-multiple-tendermint-nodes/</loc>
     <lastmod>2018-05-09T20:37:17.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/05/08/kafka-demo/</loc>
+    <loc>https://hiberabyss.github.io/2018/05/08/kafka-demo/</loc>
     <lastmod>2018-05-09T08:12:59.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/02/02/docker-bridge-network-practice/</loc>
+    <loc>https://hiberabyss.github.io/2018/02/02/docker-bridge-network-practice/</loc>
     <lastmod>2018-05-08T02:17:22.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/02/07/docker-network-debug/</loc>
+    <loc>https://hiberabyss.github.io/2018/02/07/docker-network-debug/</loc>
     <lastmod>2018-05-08T02:17:19.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/03/19/hexo-gitalk-integration/</loc>
+    <loc>https://hiberabyss.github.io/2018/03/19/hexo-gitalk-integration/</loc>
     <lastmod>2018-05-08T01:49:48.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2017/03/13/hexo-source-code-backup/</loc>
+    <loc>https://hiberabyss.github.io/2017/03/13/hexo-source-code-backup/</loc>
     <lastmod>2018-05-08T01:49:48.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2017/03/13/hexo-tutorial/</loc>
+    <loc>https://hiberabyss.github.io/2017/03/13/hexo-tutorial/</loc>
     <lastmod>2018-05-08T01:49:48.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/03/03/git-ignore-specific-file/</loc>
+    <loc>https://hiberabyss.github.io/2018/03/03/git-ignore-specific-file/</loc>
     <lastmod>2018-05-08T01:24:57.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/04/05/shell-file-description/</loc>
+    <loc>https://hiberabyss.github.io/2018/04/05/shell-file-description/</loc>
     <lastmod>2018-05-08T01:01:57.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/03/12/implement-ping-command-via-golang/</loc>
+    <loc>https://hiberabyss.github.io/2018/03/12/implement-ping-command-via-golang/</loc>
     <lastmod>2018-05-08T01:00:29.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/05/03/add-async-support-for-vim-plugin/</loc>
+    <loc>https://hiberabyss.github.io/2018/05/03/add-async-support-for-vim-plugin/</loc>
     <lastmod>2018-05-08T00:49:14.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/03/21/vim-plug-introduction/</loc>
+    <loc>https://hiberabyss.github.io/2018/03/21/vim-plug-introduction/</loc>
     <lastmod>2018-05-08T00:49:14.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/02/28/vim-project-configuration/</loc>
+    <loc>https://hiberabyss.github.io/2018/02/28/vim-project-configuration/</loc>
     <lastmod>2018-05-08T00:48:32.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2017/03/04/why-I-try-to-use-emacs/</loc>
+    <loc>https://hiberabyss.github.io/2017/03/04/why-I-try-to-use-emacs/</loc>
     <lastmod>2018-05-08T00:48:11.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2017/11/30/vim-remote-copy/</loc>
+    <loc>https://hiberabyss.github.io/2017/11/30/vim-remote-copy/</loc>
     <lastmod>2018-05-08T00:47:57.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2017/11/16/vim-word-completion/</loc>
+    <loc>https://hiberabyss.github.io/2017/11/16/vim-word-completion/</loc>
     <lastmod>2018-05-08T00:47:46.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2017/11/15/neovim-neoterm/</loc>
+    <loc>https://hiberabyss.github.io/2017/11/15/neovim-neoterm/</loc>
     <lastmod>2018-05-08T00:47:25.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/04/13/vim-file-jumper/</loc>
+    <loc>https://hiberabyss.github.io/2018/04/13/vim-file-jumper/</loc>
     <lastmod>2018-05-08T00:44:28.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/02/02/vim-iptables/</loc>
+    <loc>https://hiberabyss.github.io/2018/02/02/vim-iptables/</loc>
     <lastmod>2018-05-08T00:44:21.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2017/11/23/aws-mfa-from-pc/</loc>
+    <loc>https://hiberabyss.github.io/2017/11/23/aws-mfa-from-pc/</loc>
     <lastmod>2018-05-08T00:42:58.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2017/11/27/no-password-anyconnect/</loc>
+    <loc>https://hiberabyss.github.io/2017/11/27/no-password-anyconnect/</loc>
     <lastmod>2018-05-08T00:42:43.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/05/04/request-limit-and-qps-statistics/</loc>
+    <loc>https://hiberabyss.github.io/2018/05/04/request-limit-and-qps-statistics/</loc>
     <lastmod>2018-05-08T00:42:08.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/05/06/hexo-copyright-recommendations/</loc>
+    <loc>https://hiberabyss.github.io/2018/05/06/hexo-copyright-recommendations/</loc>
     <lastmod>2018-05-06T23:25:08.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/02/28/neovim-gdb-integration/</loc>
+    <loc>https://hiberabyss.github.io/2018/02/28/neovim-gdb-integration/</loc>
     <lastmod>2018-05-06T22:09:07.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/04/04/gdb-internal/</loc>
+    <loc>https://hiberabyss.github.io/2018/04/04/gdb-internal/</loc>
     <lastmod>2018-05-06T22:09:01.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/03/23/golang-slice-analyze/</loc>
+    <loc>https://hiberabyss.github.io/2018/03/23/golang-slice-analyze/</loc>
     <lastmod>2018-05-06T18:52:47.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2017/03/21/git-amend-commits/</loc>
+    <loc>https://hiberabyss.github.io/2017/03/21/git-amend-commits/</loc>
     <lastmod>2018-05-06T18:46:04.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/03/28/git-internal/</loc>
+    <loc>https://hiberabyss.github.io/2018/03/28/git-internal/</loc>
     <lastmod>2018-05-06T18:45:34.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/03/20/concurrency-models/</loc>
+    <loc>https://hiberabyss.github.io/2018/03/20/concurrency-models/</loc>
     <lastmod>2018-05-06T18:42:29.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/05/03/surfingkeys-blog-share/</loc>
+    <loc>https://hiberabyss.github.io/2018/05/03/surfingkeys-blog-share/</loc>
     <lastmod>2018-05-06T18:42:29.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/03/12/tor-vpn/</loc>
+    <loc>https://hiberabyss.github.io/2018/03/12/tor-vpn/</loc>
     <lastmod>2018-05-06T18:42:29.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/03/07/parallel-programing-concepts/</loc>
+    <loc>https://hiberabyss.github.io/2018/03/07/parallel-programing-concepts/</loc>
     <lastmod>2018-05-06T18:40:08.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/03/13/shared-memory/</loc>
+    <loc>https://hiberabyss.github.io/2018/03/13/shared-memory/</loc>
     <lastmod>2018-05-06T18:36:43.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/01/18/kubectl-tips/</loc>
+    <loc>https://hiberabyss.github.io/2018/01/18/kubectl-tips/</loc>
     <lastmod>2018-04-12T21:57:23.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/03/06/programming-closure/</loc>
+    <loc>https://hiberabyss.github.io/2018/03/06/programming-closure/</loc>
     <lastmod>2018-03-06T10:20:20.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/01/14/setup-aws-cli/</loc>
+    <loc>https://hiberabyss.github.io/2018/01/14/setup-aws-cli/</loc>
     <lastmod>2018-02-02T07:14:57.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/02/02/create-k8s-cluster-on-aws-via-kops/</loc>
+    <loc>https://hiberabyss.github.io/2018/02/02/create-k8s-cluster-on-aws-via-kops/</loc>
     <lastmod>2018-02-02T07:09:22.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2018/01/18/internet-access-with-nat-gateway/</loc>
+    <loc>https://hiberabyss.github.io/2018/01/18/internet-access-with-nat-gateway/</loc>
     <lastmod>2018-01-18T03:50:24.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2017/12/01/k8s-run-commands-on-multiple-nodes/</loc>
+    <loc>https://hiberabyss.github.io/2017/12/01/k8s-run-commands-on-multiple-nodes/</loc>
     <lastmod>2018-01-18T03:47:12.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2017/11/22/k8s-persistent-volume/</loc>
+    <loc>https://hiberabyss.github.io/2017/11/22/k8s-persistent-volume/</loc>
     <lastmod>2017-11-22T03:08:42.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2017/11/20/integrate-latest-libmemcached/</loc>
+    <loc>https://hiberabyss.github.io/2017/11/20/integrate-latest-libmemcached/</loc>
     <lastmod>2017-11-21T02:27:41.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2017/11/13/remote-access-raspberry/</loc>
+    <loc>https://hiberabyss.github.io/2017/11/13/remote-access-raspberry/</loc>
     <lastmod>2017-11-13T15:55:58.000Z</lastmod>
   </url>  <url>
-    <loc>https://hbliu.coding.me/2017/03/12/jenkins-pipeline-tips/</loc>
+    <loc>https://hiberabyss.github.io/2017/03/12/jenkins-pipeline-tips/</loc>
     <lastmod>2017-09-14T03:56:15.000Z</lastmod>
   </url>
 </urlset>
