@@ -1,5 +1,3 @@
-" SmartIM
-
 function! ToggleDraft()
     let parent_dir = expand('%:p:h:t')
 
