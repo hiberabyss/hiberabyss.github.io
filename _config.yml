@@ -119,10 +119,10 @@ server:
 
 recommended_posts:
   enable: true
-  internalLinks: 4
-  externalLinks: 1
-  autoDisplay: false
-  fixedNumber: true
+  internalLinks: 5
+  externalLinks: 0
+  autoDisplay: true
+  fixedNumber: false
   excludePattern: ["davidfnck.com"]
 
 highlight:
