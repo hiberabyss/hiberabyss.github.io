@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hiberabyss.github.io/2021/02/05/vim-fast-normal/</loc>
+    
+    <lastmod>2021-02-05T08:07:03.311Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hiberabyss.github.io/about/index.html</loc>
+    
+    <lastmod>2020-05-08T08:58:52.980Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://hiberabyss.github.io/2020/05/07/auction-advertisement/</loc>
     
-    <lastmod>2020-05-08T08:46:09.723Z</lastmod>
+    <lastmod>2020-05-08T08:53:02.120Z</lastmod>
     
   </url>
   
@@ -33,13 +47,6 @@
     <loc>https://hiberabyss.github.io/2020/04/26/vim-edit-binary/</loc>
     
     <lastmod>2020-04-26T14:04:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hiberabyss.github.io/about/index.html</loc>
-    
-    <lastmod>2020-03-12T08:10:27.000Z</lastmod>
     
   </url>
   
