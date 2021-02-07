@@ -15,7 +15,9 @@ date: 2017-03-05 00:39:49
 
 ## 工作经历
 
-* 腾讯, 社交与效果广告部, 高级工程师 (2018.8 ~ 至今)
+* 腾讯, 广告营销服务专线，行业服务中心，高级工程师 (2020.1 ~ 至今)
+
+* 腾讯, 社交与效果广告部，系统研发中心，高级工程师 (2018.8 ~ 2019.12)
 
 * FreeWheel, AdServing Team, Senior Software Engineer (2015.7 ~ 2018.8)
     * 主要负责后端广告投放系统业务的开发和维护;
@@ -29,9 +31,9 @@ date: 2017-03-05 00:39:49
     * 熟练: C++, ShellScript
     * 熟悉: Go, Python
     * 了解: Haskell
-* 熟悉 Linux 原理, 熟练掌握类 Linux/Unix 系统的使用, 有 6 年使用经验;
+* 熟悉 Linux 原理, 熟练掌握类 Linux/Unix 系统的使用;
 * 工具:
-    * 精通: VIM
+    * 精通: Vim，tmux
     * 熟练: Git, Docker, Kubernetes
     * 熟悉: AWS
 
