@@ -23,8 +23,10 @@ jobs:
             ${{ runner.OS }}-npm-cache
       - name: Install Dependencies
         run: npm install
+      - name: Rebuild node-sass
+        run: npm rebuild node-sass
       - name: Build
-        run: npm run build && npm rebuild node-sass
+        run: npm run build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
