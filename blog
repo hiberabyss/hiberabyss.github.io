@@ -43,7 +43,7 @@ source_push() {
 }
 
 all_push() {
-	source_push
+	# source_push
 	theme_push
 }
 
